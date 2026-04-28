@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "title": "Mont des Arts | Brussels",
+    "description": "Complete guide to Mont des Arts in Brussels, Belgium. Hours, directions, photos and reviews."
+  },
+  "header": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "map": "Map",
+    "backToHome": "Back to Home"
+  },
+  "hero": {
+    "title": "Mont des Arts",
+    "subtitle": "Brussels' most beautiful skyline & cultural heart",
+    "rating": "4.6(5,892)",
+    "reviewCount": "5,892 reviews",
+    "hours": "Open 24 hours",
+    "openMaps": "View Location"
+  },
+  "intro": {
+    "title": "Discover Mont des Arts",
+    "description": "Mont des Arts is the crowning achievement of Brussels' urban planning, symbolizing Belgium's modernization and national identity. It is one of the most successful urban public spaces in Europe. The terraced gardens and modernist glass buildings create a flowing perspective overlooking the old town, like a floating palace of art.",
+    "visitGuide": {
+      "title": "Visit Guide",
+      "items": [
+        "The open square and gardens are open 24 hours, with the best light at dawn and dusk",
+        "Surrounding venues like the Royal Library and BOZAR have varying hours, generally 10am-5pm",
+        "Most venues are closed on Mondays, but the square itself is quieter in the early morning",
+        "Winter light shows extend hours to midnight during December"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Highlights",
+      "items": [
+        "Square, Viewing Platform & Arts District",
+        "One of Europe's most successful public spaces",
+        "Perfect blend of neoclassical and modernist architecture"
+      ]
+    }
+  },
+  "knowledge": {
+    "title": "Explore the Wonders of Mont des Arts",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Historical Significance",
+        "content": "Mont des Arts represents the pinnacle of Brussels urban planning, symbolizing Belgium's modernization and national identity. In the late 19th century, King Leopold II envisioned transforming this hillside into a grand commemorative district. After decades of debate and delays, the project was finally completed after World War II, but with a transformed purpose: creating a public space for ordinary citizens to enjoy panoramic city views rather than glorifying monarchy."
+      },
+      {
+        "id": "architecture",
+        "title": "Architectural Features",
+        "content": "The design centers on cascading terraced gardens and modernist glass buildings, creating a flowing perspective from above that overlooks the old town. The combination of neoclassical palace elements and 20th-century modernist simplicity presents an eclectic style that is both solemn and light. The Royal Library, BOZAR and other buildings are positioned at the edge of the square with carefully controlled heights, like a picture frame for the old town."
+      },
+      {
+        "id": "culture",
+        "title": "Cultural Value",
+        "content": "Mont des Arts witnesses the transformation from royal privilege to civic culture. Today it is a gathering place for photography enthusiasts, street artists and tourists, representing Brussels' open and inclusive cultural DNA. The square has undergone two major renovations in the 1990s, adding modern lighting designs and sculptures, but its essential character remains unchanged."
+      },
+      {
+        "id": "route",
+        "title": "Recommended Walking Route",
+        "content": "Start at the highest point of the square around 10am for panoramic city views and the energy of morning commerce. Descend the main staircase to reach the central fountain. Stroll through the gardens to discover contemporary sculptures and hidden galleries. Finally, visit the Royal Library or BOZAR for internal exhibitions. This route takes about 2 hours, but can easily extend to half a day if you get captivated as I did."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Stunning views of Brussels' cultural heart",
+    "captions": [
+      "Panoramic view of Mont des Arts",
+      "Terraced gardens and old town",
+      "Central fountain",
+      "View from the upper plaza",
+      "Evening golden light",
+      "Street musicians and artists"
+    ],
+    "viewAll": "View locations on Google Maps"
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Visitor feedback can be viewed via Google Maps (external link).",
+    "moreReviews": "View locations on Google Maps",
+    "items": [
+      {
+        "name": "Marie L.",
+        "date": "March 2026",
+        "rating": 5,
+        "text": "Absolutely magical at sunset! The way the golden light washes over the neoclassical buildings is unforgettable. A perfect spot for photography."
+      },
+      {
+        "name": "James K.",
+        "date": "February 2026",
+        "rating": 5,
+        "text": "One of the most beautiful public squares I've ever seen. The cascading gardens and views over Brussels are stunning. Free to visit!"
+      },
+      {
+        "name": "Sophie M.",
+        "date": "January 2026",
+        "rating": 4,
+        "text": "Great location with amazing views of the city. The surrounding museums are worth visiting. Come early morning for fewer crowds."
+      },
+      {
+        "name": "Thomas B.",
+        "date": "December 2025",
+        "rating": 5,
+        "text": "The winter light show in December is breathtaking. The square transforms into a magical wonderland. Highly recommended!"
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "How to Get Here",
+    "subtitle": "Mont des Arts 1, 1000 Brussels, Belgium",
+    "openMaps": "View on Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Mont des Arts Travel Guide · All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "officialResourcesTitle": "Related Resources & Information",
+    "officialLinks": {
+      "tourism": "Visit Brussels",
+      "museums": "BOZAR Brussels",
+      "library": "Royal Library of Belgium"
+    },
+    "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: April 2026",
+    "sections": [
+      {
+        "heading": "1. Information Collection",
+        "content": "We generally do not actively collect personally identifiable information from users. Any information provided by you through contact forms or emails will be kept strictly confidential."
+      },
+      {
+        "heading": "2. Use of Information",
+        "content": "The information we collect is used solely to provide, maintain, and improve our services, and to communicate with you. We do not sell or share your personal information with third parties for marketing purposes."
+      },
+      {
+        "heading": "3. Cookies and Tracking",
+        "content": "We use cookies and similar tracking technologies to track the activity on our website and hold certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent."
+      },
+      {
+        "heading": "4. Data Security",
+        "content": "The security of your data is important to us. We use commercially acceptable means to protect your Personal Data, though no method of transmission over the Internet is 100% secure."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: April 2026",
+    "sections": [
+      {
+        "heading": "1. Acceptance of Terms",
+        "content": "By accessing and using this website, you agree to be bound by these terms of service. If you disagree with any part of the terms, you may not access the service."
+      },
+      {
+        "heading": "2. Use of Service",
+        "content": "This website is an independent third-party tourist information project. The information provided is for general informational purposes only. You agree to use the site responsibly and lawfully."
+      },
+      {
+        "heading": "3. Intellectual Property",
+        "content": "All content on this website, including texts, images, and logos, is the property of the website owner unless otherwise stated. Unauthorized use, reproduction, or distribution is strictly prohibited."
+      },
+      {
+        "heading": "4. Limitation of Liability",
+        "content": "We shall not be held liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use this website or the information contained herein."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Manage your cookie preferences.",
+    "essential": {
+      "title": "Strictly Necessary Cookies",
+      "description": "Required for basic website functionality.",
+      "badge": "Always active"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "Help us understand how visitors interact with the site."
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "Used to track visitors across websites."
+    },
+    "save": "Save Preferences",
+    "saved": "Preferences saved!"
+  },
+  "officialManagement": {
+    "title": "About Mont des Arts",
+    "text": "Mont des Arts is managed and maintained by the Brussels-Capital Region. As one of the most important public spaces in Brussels and even Belgium, the square represents the country's urban planning achievements. The surrounding museums and cultural institutions operate independently but share a commitment to preserving and showcasing Belgium's cultural heritage."
+  },
+  "info": {
+    "title": "Essential Information",
+    "sections": [
+      {
+        "id": "hours",
+        "title": "Opening Hours",
+        "content": "The Mont des Arts open square and gardens are open 24 hours a day, serving as Brussels' everyday leisure space. Night visits are possible, but the light is most beautiful at dawn and dusk. Surrounding venues like the Royal Library and BOZAR have varying hours, generally 10am-5pm, with most closed on Mondays. During the December winter light show, hours extend to midnight. It is recommended to avoid Sunday mornings when some venues are closed, but the square itself is actually quieter then."
+      },
+      {
+        "id": "tickets",
+        "title": "Admission",
+        "content": "The Mont des Arts square itself is free and open to the public with no admission fee. Surrounding venues like the Magritte Museum, Museum of Ancient Art, and Royal Library require separate tickets, with adult tickets ranging from 8-15 euros. Students and seniors receive discounts, and the first Wednesday of each month offers free admission in the afternoon. The Brussels Card covers major venues, with a one-day pass around 30 euros."
+      },
+      {
+        "id": "transport",
+        "title": "Transportation",
+        "content": "From Brussels International Airport, take the airport express about 20 minutes to Brussels-Central Station, then walk about 5 minutes to Mont des Arts. From Brussels-South Station, take Metro Line 2 or 6 to Park Station, then walk through the Royal Park. A Brussels day pass is recommended, with single tickets at 2.5 euros and day passes at 8 euros. If walking from Grand Place, simply pass through the Galeries Royales Saint-Hubert and walk up the slope for about 10 minutes."
+      },
+      {
+        "id": "photography",
+        "title": "Photography Tips",
+        "content": "The steps and ground tiles at Mont des Arts are mostly light gray and easily reflect strong light. A polarizing filter is recommended to reduce glare and reflections. Drones are prohibited in the square and will be stopped by security personnel. Street performers are active on weekends; please tip them 1-2 euros if you take photos. Best shooting spots: top level center facing the Town Hall tower for sunset shots; low-angle fountain shots for rainbow effects; the staircase for silhouette shots of people on the upper level."
+      }
+    ]
+  },
+  "accommodation": {
+    "title": "Where to Stay",
+    "places": [
+      {
+        "name": "Premium Value",
+        "description": "Boutique hotels converted from historic buildings on the edge of the old town. Rooms offer wide views overlooking Mont des Arts, with balconies for admiring the enchanting sunrise over rooftops."
+      },
+      {
+        "name": "Design Choice",
+        "description": "Minimalist design apartments near BOZAR, blending concrete with wood in a Nordic style. Located in the heart of the arts district, just a short walk from Mont des Arts."
+      },
+      {
+        "name": "Unique Experience",
+        "description": "A vintage residence hidden in a quiet alley downtown, converted from a century-old mansion with rich atmosphere. Enjoy warm hospitality with local snacks and beverages."
+      },
+      {
+        "name": "Budget Option",
+        "description": "High-value budget hostel in the southeast of the city with convenient transportation. The terrace offers distant views of the Mont des Arts fountain. Relaxed evening atmosphere, perfect for travelers to mingle."
+      }
+    ]
+  }
+}
