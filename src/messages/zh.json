@@ -120,9 +120,10 @@
     "cookies": "Cookie 设置",
     "officialResourcesTitle": "相关资源与信息",
     "officialLinks": {
-      "tourism": "访问布鲁塞尔",
-      "museums": "BOZAR 布鲁塞尔艺术中心",
-      "library": "比利时皇家图书馆"
+      "belgium": "Belgium.be",
+      "visitBrussels": "Visit Brussels",
+      "cityOfBrussels": "City of Brussels",
+      "kbr": "KBR"
     },
     "disclaimer": "本网站是独立的第三方旅游资讯项目，与当地政府或任何官方机构均无关联。"
   },

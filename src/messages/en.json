@@ -120,9 +120,10 @@
     "cookies": "Cookie Settings",
     "officialResourcesTitle": "Related Resources & Information",
     "officialLinks": {
-      "tourism": "Visit Brussels",
-      "museums": "BOZAR Brussels",
-      "library": "Royal Library of Belgium"
+      "belgium": "Belgium.be",
+      "visitBrussels": "Visit Brussels",
+      "cityOfBrussels": "City of Brussels",
+      "kbr": "KBR"
     },
     "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions."
   },
