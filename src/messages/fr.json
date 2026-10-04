@@ -1,0 +1,356 @@
+{
+  "meta": {
+    "title": "Mont des Arts Bruxelles – Jardins, Belvédère & Guide de visite",
+    "description": "Visitez le Mont des Arts à Bruxelles, en Belgique. Découvrez les jardins, le belvédère panoramique, l'histoire, les horaires et les tarifs, les musées à proximité, la carte et nos conseils pratiques."
+  },
+  "header": {
+    "home": "Accueil",
+    "gallery": "Galerie",
+    "reviews": "Avis",
+    "map": "Carte",
+    "history": "Histoire",
+    "backToHome": "Retour à l'accueil"
+  },
+  "hero": {
+    "title": "Mont des Arts",
+    "location": "Bruxelles, Belgique",
+    "subtitle": "Les jardins en terrasses, le belvédère et le cœur culturel de Bruxelles",
+    "rating": "4,6",
+    "reviewCount": "17 894 avis Google",
+    "hours": "Ouvert 24 h/24",
+    "freeEntry": "Entrée gratuite",
+    "tags": "Jardins · Belvédère · Musées",
+    "openMaps": "Itinéraire"
+  },
+  "whatIs": {
+    "title": "Qu'est-ce que le Mont des Arts ?",
+    "text": "Le Mont des Arts, appelé Kunstberg en néerlandais, est un quartier culturel historique et un jardin public paysager au centre de Bruxelles, connu pour son belvédère panoramique sur la ville et pour la concentration de musées, de bibliothèques et d'institutions culturelles qui l'entourent.",
+    "alsoKnown": "Néerlandais : Kunstberg · Également recherché sous « mont des arts bruxelles », « jardin du mont des arts » et « Kunstberg Bruxelles »."
+  },
+  "intro": {
+    "title": "Découvrir le Mont des Arts",
+    "description": "Le Mont des Arts relie la ville haute et la ville basse de Bruxelles par un enchaînement de jardins en terrasses, de fontaines et d'immeubles modernistes. C'est l'un des espaces publics urbains les plus réussis d'Europe : les façades néoclassiques et l'architecture de verre du XXe siècle y encadrent une vue unique et continue sur la vieille ville.",
+    "visitGuide": {
+      "title": "Guide de visite",
+      "items": [
+        "La place et les jardins sont ouverts 24 h/24 et gratuits",
+        "Meilleure lumière pour les photos : tôt le matin et l'heure avant le coucher du soleil",
+        "Les institutions voisines comme KBR et BOZAR ont leurs propres horaires, en général de 10 h à 17 h",
+        "La plupart des musées du quartier ferment le lundi"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Points forts",
+      "items": [
+        "Jardins en terrasses, fontaine centrale et belvédère panoramique",
+        "L'un des espaces publics les plus réussis d'Europe",
+        "BOZAR, KBR et les Musées royaux des Beaux-Arts à quelques minutes à pied"
+      ]
+    }
+  },
+  "tickets": {
+    "title": "Faut-il un billet pour le Mont des Arts ?",
+    "answer": "Non. Le Mont des Arts est un espace extérieur public qui ne demande aucun billet d'entrée : les jardins, les terrasses et le belvédère sont accessibles gratuitement à toute heure. Un billet n'est nécessaire que pour les musées et expositions qui l'entourent, comme BOZAR, les expositions de KBR et les Musées royaux des Beaux-Arts.",
+    "bullets": [
+      "Jardins, terrasses et belvédère du Mont des Arts — gratuits, sans billet",
+      "BOZAR, expositions de KBR et Musées royaux des Beaux-Arts — billets séparés",
+      "De nombreux musées bruxellois sont fermés le lundi",
+      "La Brussels Card donne accès à plusieurs musées du quartier"
+    ],
+    "note": "Vérifiez toujours le site officiel de l'institution que vous souhaitez visiter : les expositions temporaires peuvent avoir une entrée et des horaires différents."
+  },
+  "gardens": {
+    "title": "Les jardins du Mont des Arts",
+    "text": "Les jardins du Mont des Arts forment une succession de terrasses symétriques, de haies taillées et de pelouses qui descendent la colline vers la ville basse. Dessinés dans les décennies d'après-guerre par l'architecte paysagiste René Pechère, ces plantations géométriques adoucissent l'architecture monumentale de la place et offrent un endroit calme où s'asseoir entre deux visites de musée.",
+    "bullets": [
+      "Terrasses régulières, parterres fleuris de saison et fontaine centrale",
+      "Bancs ombragés sur le niveau supérieur, face à la vieille ville",
+      "Plusieurs rénovations depuis les années 1990, dont un nouvel éclairage et de nouvelles plantations"
+    ]
+  },
+  "viewpoint": {
+    "title": "Le belvédère du Mont des Arts",
+    "text": "La terrasse supérieure du Mont des Arts est l'un des plus beaux points de vue gratuits de Bruxelles. Depuis la balustrade, on domine les toits de la vieille ville jusqu'à la tour de l'Hôtel de Ville sur la Grand-Place ; à gauche se dressent les flèches des églises du Sablon et, par temps clair, l'Atomium apparaît à l'horizon.",
+    "bullets": [
+      "Meilleur moment : l'heure avant le coucher du soleil, quand les façades en pierre deviennent dorées",
+      "Le belvédère est en plein air, gratuit et accessible à toute heure",
+      "Trépied toléré en dehors des événements ; les drones sont interdits sur la place"
+    ]
+  },
+  "knowledge": {
+    "title": "Explorer les merveilles du Mont des Arts",
+    "historyCta": "Lire l'histoire complète du Mont des Arts",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Portée historique",
+        "content": "Le Mont des Arts représente le sommet de l'urbanisme bruxellois et symbolise la modernisation et l'identité nationale de la Belgique. À la fin du XIXe siècle, le roi Léopold II voulait faire de cette colline un quartier artistique monumental. Après des décennies de débats et deux guerres mondiales, le projet fut achevé après 1945 avec une autre intention : non plus glorifier la monarchie, mais offrir aux citoyens un lieu public d'où voir toute la ville."
+      },
+      {
+        "id": "architecture",
+        "title": "Caractéristiques architecturales",
+        "content": "Le dessin associe des jardins en cascades à des immeubles modernistes de verre et de pierre, créant une perspective continue qui encadre la vieille ville en contrebas. Les éléments néoclassiques voisinent avec les lignes sobres du modernisme du XXe siècle, pour un style éclectique à la fois solennel et léger. KBR, BOZAR et les institutions voisines sont placés en bordure de la place avec des hauteurs soigneusement contrôlées, comme un cadre autour du centre historique."
+      },
+      {
+        "id": "culture",
+        "title": "Valeur culturelle",
+        "content": "Le Mont des Arts marque le passage d'un privilège royal à une culture citoyenne. C'est aujourd'hui un lieu de rendez-vous pour les photographes, les musiciens de rue et les visiteurs du monde entier, et il exprime le caractère ouvert et multilingue de Bruxelles. La place a connu d'importantes campagnes de rénovation à partir des années 1990, avec un éclairage et des sculptures contemporains, sans perdre son esprit d'origine."
+      },
+      {
+        "id": "route",
+        "title": "Parcours de visite conseillé",
+        "content": "Commencez vers 10 h par le haut de la place pour la vue panoramique, puis descendez l'escalier principal jusqu'à la fontaine centrale. Continuez dans les jardins pour découvrir sculptures et petites galeries, et terminez à l'intérieur de KBR, de BOZAR ou des Musées royaux des Beaux-Arts. La boucle prend environ deux heures ; en ajoutant la Grand-Place et le Sablon, vous remplissez facilement une demi-journée."
+      }
+    ]
+  },
+  "info": {
+    "title": "Informations pratiques",
+    "sections": [
+      {
+        "id": "hours",
+        "title": "Horaires d'ouverture",
+        "content": "La place et les jardins du Mont des Arts sont ouverts 24 h/24 et comptent parmi les espaces de détente quotidiens des Bruxellois. La visite de nuit est possible, mais la lumière est la plus belle à l'aube et au crépuscule. Les institutions voisines comme KBR et BOZAR ont leurs propres horaires, généralement de 10 h à 17 h, et ferment en principe le lundi. En décembre, les installations lumineuses prolongent les animations en soirée sur la place."
+      },
+      {
+        "id": "admission",
+        "title": "Tarifs et billets",
+        "content": "L'accès au Mont des Arts est gratuit : pas de grille, pas de guichet et pas d'heure de fermeture pour l'espace extérieur. Les musées voisins sont payants, avec des tarifs adultes généralement compris entre 8 et 15 € pour les grandes institutions. Des tarifs réduits sont proposés aux étudiants, aux seniors et aux moins de 26 ans, et la Brussels Card regroupe plusieurs musées du quartier."
+      },
+      {
+        "id": "transport",
+        "title": "Comment venir",
+        "content": "Le Mont des Arts se trouve entre la gare de Bruxelles-Central et le Quartier royal, à environ cinq minutes de marche de la sortie de la gare. Depuis Bruxelles-Midi, prenez les lignes de métro 2 ou 6 jusqu'à Parc et traversez le Parc royal. Depuis la Grand-Place, passez par les Galeries royales Saint-Hubert et remontez la pente pendant une dizaine de minutes. Les arrêts de tram et de bus Mont des Arts / Kunstberg se trouvent sur les boulevards en contrebas."
+      },
+      {
+        "id": "photography",
+        "title": "Conseils photo",
+        "content": "Les marches et le pavement du Mont des Arts sont en pierre claire et renvoient une lumière forte : un filtre polarisant aide à limiter les reflets. La prise de vue classique se fait depuis le centre de la terrasse supérieure vers la tour de l'Hôtel de Ville, idéalement dans l'heure qui précède le coucher du soleil. En contre-plongée devant la fontaine, on capte la lumière dans les embruns, et l'escalier se prête bien aux silhouettes au niveau supérieur. Les drones sont interdits sur la place."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galerie photos",
+    "subtitle": "Photos du Mont des Arts : jardins, belvédère et panorama de Bruxelles",
+    "alts": [
+      "Vue panoramique du Mont des Arts sur Bruxelles",
+      "Jardins en terrasses du Mont des Arts et vieille ville",
+      "Fontaine centrale du Mont des Arts",
+      "Belvédère de la place haute du Mont des Arts",
+      "Mont des Arts à l'heure dorée",
+      "Architecture néoclassique autour du Mont des Arts",
+      "KBR, Bibliothèque royale de Belgique, près du Mont des Arts",
+      "BOZAR, Palais des Beaux-Arts, près du Mont des Arts",
+      "Panorama urbain de Bruxelles depuis le Mont des Arts",
+      "Jardins du Mont des Arts et toits de Bruxelles",
+      "Place du Mont des Arts la nuit"
+    ],
+    "viewAll": "Voir ce lieu sur Google Maps"
+  },
+  "reviews": {
+    "title": "Avis des visiteurs",
+    "ratingLabel": "Note Google Maps",
+    "reviewCount": "sur 17 894 avis",
+    "checked": "Note vérifiée en octobre 2026 · Google Maps",
+    "declaration": "Ce site est un guide de visite indépendant. Nous ne reproduisons pas d'avis individuels — les derniers retours de visiteurs sont à lire sur Google Maps.",
+    "moreReviews": "Voir les derniers avis sur Google Maps"
+  },
+  "accommodation": {
+    "title": "Où loger près du Mont des Arts",
+    "intro": "Le Mont des Arts se situe entre le centre historique et le Quartier royal : la plupart des quartiers du centre de Bruxelles sont accessibles à pied. Les voyageurs choisissent généralement l'un de ces secteurs :",
+    "places": [
+      {
+        "name": "Grand-Place et Îlot Sacré (5–10 min à pied)",
+        "description": "Le choix classique pour une première visite : hôtels aménagés dans des maisons du XVIIe siècle, juste à côté de la Grand-Place, du Manneken-Pis et de centaines de restaurants. Rues animées le soir."
+      },
+      {
+        "name": "Quartier royal et Sablon (5–8 min à pied)",
+        "description": "Des rues calmes et élégantes entre le Palais royal et le Sablon, avec des hôtels-boutiques et des appartements design. Le secteur le plus proche de BOZAR et des Musées royaux des Beaux-Arts."
+      },
+      {
+        "name": "Autour de Bruxelles-Central (3–6 min à pied)",
+        "description": "Pratique pour les courts séjours et les trains du matin : hôtels de chaîne et apparthôtels sur les boulevards entre la gare et le Mont des Arts, avec des liaisons directes vers l'aéroport."
+      },
+      {
+        "name": "Ville basse et Saint-Gilles (15–20 min en métro)",
+        "description": "Le meilleur rapport qualité-prix : maisons de maître Art déco, auberges de jeunesse et apparthôtels au sud de la petite ceinture, reliés au Mont des Arts par les lignes de métro 2 et 6 en une dizaine de minutes."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Carte et accès au Mont des Arts",
+    "subtitle": "Mont des Arts 1, 1000 Bruxelles, Belgique · Code Plus R9V4+9X Bruxelles",
+    "openMaps": "Ouvrir dans Google Maps"
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "q": "Qu'est-ce que le Mont des Arts ?",
+        "a": "Le Mont des Arts est un quartier culturel historique et un jardin public paysager du centre de Bruxelles, appelé Kunstberg en néerlandais. Il est connu pour ses jardins en terrasses, sa fontaine centrale, son belvédère panoramique sur la vieille ville et pour les musées et institutions culturelles réunis autour de la place."
+      },
+      {
+        "q": "Faut-il un billet pour visiter le Mont des Arts ?",
+        "a": "Non. Le Mont des Arts est un espace extérieur public sans billet d'entrée ni grille : les jardins, les terrasses et le belvédère sont accessibles gratuitement à toute heure. Un billet n'est nécessaire que pour les attractions voisines comme BOZAR, les expositions de KBR et les Musées royaux des Beaux-Arts."
+      },
+      {
+        "q": "Le Mont des Arts est-il gratuit ?",
+        "a": "Oui. Se promener sur la place et dans les jardins, s'asseoir sur les terrasses et profiter du belvédère est entièrement gratuit. Seuls les musées et expositions temporaires autour de la place sont payants."
+      },
+      {
+        "q": "Quels sont les horaires du Mont des Arts ?",
+        "a": "La place et les jardins extérieurs sont ouverts 24 h/24, tous les jours de l'année. Les institutions environnantes ont leurs propres horaires, généralement de 10 h à 17 h, et la plupart ferment le lundi."
+      },
+      {
+        "q": "Comment rejoindre le Mont des Arts depuis la gare de Bruxelles-Central ?",
+        "a": "Le Mont des Arts est à environ cinq minutes de marche de la gare de Bruxelles-Central : sortez en direction du Quartier royal et remontez la pente en passant devant BOZAR. Les arrêts de tram et de bus Mont des Arts / Kunstberg se trouvent également sur les boulevards en contrebas."
+      },
+      {
+        "q": "Le Mont des Arts est-il loin de la Grand-Place ?",
+        "a": "Environ dix minutes à pied. Traversez les Galeries royales Saint-Hubert et continuez à monter : la pente s'achève sur la terrasse supérieure du Mont des Arts, d'où l'on aperçoit la tour de l'Hôtel de Ville de la Grand-Place."
+      },
+      {
+        "q": "Où se trouve le meilleur point de vue du Mont des Arts ?",
+        "a": "La balustrade de la terrasse supérieure, juste au-dessus de l'escalier principal, offre le panorama classique sur les toits de la vieille ville jusqu'à la tour de l'Hôtel de Ville. Le coucher du soleil et l'heure qui le précède sont les moments les plus prisés."
+      },
+      {
+        "q": "Quel est le nom néerlandais du Mont des Arts ?",
+        "a": "Kunstberg, littéralement « la colline de l'art ». Mont des Arts en français et Kunstberg en néerlandais désignent la même place et les mêmes jardins du centre de Bruxelles ; les deux noms figurent sur la signalisation et les arrêts de transport public."
+      },
+      {
+        "q": "Combien de temps prévoir pour le Mont des Arts ?",
+        "a": "Comptez environ 45 minutes à une heure pour parcourir les jardins, l'escalier principal et le belvédère. Avec la visite d'un musée comme BOZAR ou les Musées royaux des Beaux-Arts, comptez deux à trois heures ; une demi-journée suffit pour le Mont des Arts, la Grand-Place et le Sablon."
+      },
+      {
+        "q": "Quels musées se trouvent près du Mont des Arts ?",
+        "a": "BOZAR (Palais des Beaux-Arts), KBR (Bibliothèque royale de Belgique), les Musées royaux des Beaux-Arts de Belgique, le Musée Magritte et le Musée des Instruments de musique sont tous à quelques minutes de marche de la place."
+      },
+      {
+        "q": "Quel est le meilleur moment de la journée pour visiter le Mont des Arts ?",
+        "a": "Le début de matinée est le plus calme et le meilleur pour photographier sans foule ; l'heure avant le coucher du soleil donne la lumière la plus chaude sur les façades en pierre. En décembre, la place accueille des installations lumineuses en soirée."
+      }
+    ]
+  },
+  "footer": {
+    "rights": "© 2026 Guide de visite du Mont des Arts · Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "cookies": "Paramètres des cookies",
+    "officialResourcesTitle": "Ressources et informations utiles",
+    "officialLinks": {
+      "belgium": "Belgium.be",
+      "visitBrussels": "Visit Brussels",
+      "cityOfBrussels": "Ville de Bruxelles",
+      "kbr": "KBR"
+    },
+    "disclaimer": "Ce site est un projet d'information touristique indépendant. Il n'est affilié ni au gouvernement local ni à une autre institution officielle."
+  },
+  "history": {
+    "metaTitle": "Histoire du Mont des Arts à Bruxelles – De Léopold II au Kunstberg",
+    "metaDescription": "Comment le Mont des Arts de Bruxelles a été créé : la vision urbaine de Léopold II, l'Exposition internationale de 1910, la reconstruction d'après-guerre, l'Expo 58, les jardins de René Pechère et le quartier culturel d'aujourd'hui.",
+    "title": "Histoire du Mont des Arts",
+    "intro": "Le Mont des Arts (Kunstberg en néerlandais) a demandé plus d'un demi-siècle de travaux. Ce qui avait commencé comme une ambition royale de créer une « colline des arts » monumentale est devenu, après deux guerres mondiales, l'un des espaces publics les plus réussis d'Europe.",
+    "sections": [
+      {
+        "heading": "Une colline de ruelles",
+        "content": "Avant le XXe siècle, la pente qui reliait la ville haute — le Quartier royal et le Coudenberg — à la ville basse était occupée par un quartier populaire dense de ruelles, d'ateliers et de petites maisons. C'était un versant animé et serré, au cœur d'une capitale en pleine croissance, situé juste entre le palais royal et le centre commercial."
+      },
+      {
+        "heading": "Léopold II et l'idée d'un « Mont des Arts »",
+        "content": "À la fin du XIXe siècle, le roi Léopold II lance une série de grands travaux urbains destinés à donner à Bruxelles la monumentalité de Paris ou de Vienne. L'un d'eux prévoit de transformer cette colline en « Mont des Arts », un quartier rassemblant musées, bibliothèques et salles d'exposition sur la pente. Le nom — colline de l'art en français, Kunstberg en néerlandais — date de cette période."
+      },
+      {
+        "heading": "L'Exposition internationale de Bruxelles en 1910",
+        "content": "L'exposition universelle de 1910 donne vie au projet pour la première fois. Des palais provisoires et des jardins d'ornement sont aménagés sur la pente, offrant au public un aperçu de ce que pourrait être un quartier artistique monumental. Une fois la manifestation terminée, les constructions temporaires disparaissent, mais l'ambition demeure."
+      },
+      {
+        "heading": "Un demi-siècle de débats",
+        "content": "Les travaux définitifs commencent dans l'entre-deux-guerres, avec la démolition d'une partie du vieux quartier, mais ils avancent lentement. Projets architecturaux concurrents, problèmes de financement et deux guerres mondiales retardent l'achèvement pendant des décennies, et la colline reste longtemps une plaie ouverte au centre de Bruxelles."
+      },
+      {
+        "heading": "La reconstruction d'après-guerre et l'Expo 58",
+        "content": "Après 1945, le site est reconstruit comme un ensemble moderniste cohérent. L'intention a changé : il ne s'agit plus de célébrer une dynastie, mais de créer un espace public d'où les citoyens puissent voir toute leur ville. Les travaux s'accélèrent dans les années 1950, et l'Exposition universelle de 1958 (Expo 58) amène des millions de visiteurs dans un Bruxelles qui se présente comme moderne et international."
+      },
+      {
+        "heading": "Les jardins en terrasses de René Pechère",
+        "content": "Les jardins qui descendent la colline sont associés à l'architecte paysagiste belge René Pechère. Ses terrasses symétriques, ses haies taillées, ses pelouses et sa fontaine centrale donnent une échelle humaine à l'architecture monumentale et créent le cadre vert qui rend la place agréable à vivre. Les plantations ont été renouvelées à plusieurs reprises depuis, notamment lors des campagnes menées à partir des années 1990."
+      },
+      {
+        "heading": "KBR, BOZAR et le quartier des musées",
+        "content": "Les institutions culturelles autour de la place ont été construites à des époques différentes. BOZAR, le Palais des Beaux-Arts dessiné par Victor Horta, ouvre en 1928 et reste l'une des grandes salles de concert et d'exposition de Bruxelles. La Bibliothèque royale de Belgique, aujourd'hui KBR, occupe le côté est de la place dans un bâtiment largement élevé dans les années 1950 et 1960. À quelques pas, les Musées royaux des Beaux-Arts et le Musée Magritte complètent l'un des quartiers de musées les plus denses d'Europe."
+      },
+      {
+        "heading": "Le Mont des Arts aujourd'hui",
+        "content": "Le Mont des Arts est aujourd'hui un espace public gratuit et ouvert, utilisé chaque jour par les Bruxellois et les visiteurs. Sa terrasse supérieure est devenue le point de vue classique sur la vieille ville, tandis que les jardins accueillent manifestations, installations lumineuses et concerts informels. Entretenu en continu par la Région de Bruxelles-Capitale, il reste l'expression la plus claire de la manière dont un projet urbain royal est devenu un projet citoyen."
+      }
+    ],
+    "sourcesTitle": "Sources et pour aller plus loin",
+    "sourcesIntro": "Pour les informations officielles sur les expositions, les horaires et les événements, consultez les institutions et organisations touristiques ci-dessous."
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : octobre 2026",
+    "sections": [
+      {
+        "heading": "1. Collecte des informations",
+        "content": "Nous ne collectons généralement pas activement d'informations personnellement identifiables. Toute information que vous fournissez via un formulaire de contact ou par e-mail reste strictement confidentielle."
+      },
+      {
+        "heading": "2. Utilisation des informations",
+        "content": "Les informations collectées servent uniquement à fournir, maintenir et améliorer nos services, ainsi qu'à communiquer avec vous. Nous ne vendons ni ne partageons vos données personnelles à des tiers à des fins marketing."
+      },
+      {
+        "heading": "3. Cookies et suivi",
+        "content": "Nous utilisons des cookies et des technologies de suivi similaires pour mesurer l'activité sur notre site et enregistrer certaines informations. Vous pouvez configurer votre navigateur pour refuser tous les cookies ou pour être averti lors de leur envoi."
+      },
+      {
+        "heading": "4. Sécurité des données",
+        "content": "La sécurité de vos données est importante pour nous. Nous utilisons des moyens commercialement acceptables pour protéger vos données personnelles, même si aucune méthode de transmission sur Internet n'est sûre à 100 %."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "lastUpdated": "Dernière mise à jour : octobre 2026",
+    "sections": [
+      {
+        "heading": "1. Acceptation des conditions",
+        "content": "En accédant à ce site et en l'utilisant, vous acceptez d'être lié par ces conditions d'utilisation. Si vous n'acceptez pas une partie de ces conditions, vous ne devez pas accéder au service."
+      },
+      {
+        "heading": "2. Utilisation du service",
+        "content": "Ce site est un projet d'information touristique indépendant. Les informations fournies le sont à titre général. Vous vous engagez à utiliser le site de manière responsable et légale."
+      },
+      {
+        "heading": "3. Propriété intellectuelle",
+        "content": "Tout le contenu de ce site, y compris les textes, images et logos, est la propriété du propriétaire du site sauf mention contraire. Toute utilisation, reproduction ou distribution non autorisée est strictement interdite."
+      },
+      {
+        "heading": "4. Limitation de responsabilité",
+        "content": "Nous ne serons pas tenus responsables des dommages directs, indirects, accessoires ou consécutifs résultant de l'utilisation ou de l'impossibilité d'utiliser ce site ou les informations qu'il contient."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Paramètres des cookies",
+    "description": "Gérez vos préférences en matière de cookies.",
+    "essential": {
+      "title": "Cookies strictement nécessaires",
+      "description": "Nécessaires au fonctionnement de base du site.",
+      "badge": "Toujours actifs"
+    },
+    "analytics": {
+      "title": "Cookies d'analyse",
+      "description": "Nous aident à comprendre comment les visiteurs interagissent avec le site."
+    },
+    "marketing": {
+      "title": "Cookies marketing",
+      "description": "Utilisés pour suivre les visiteurs d'un site à l'autre."
+    },
+    "save": "Enregistrer mes préférences",
+    "saved": "Préférences enregistrées !"
+  },
+  "officialManagement": {
+    "title": "À propos du Mont des Arts",
+    "text": "Le Mont des Arts est géré et entretenu par la Région de Bruxelles-Capitale. L'une des places publiques les plus importantes de Bruxelles et de Belgique, elle représente les réalisations du pays en matière d'urbanisme. Les musées et institutions culturelles environnants fonctionnent de manière indépendante, mais partagent la volonté de préserver et de faire découvrir le patrimoine culturel belge."
+  }
+}

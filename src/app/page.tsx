@@ -1,8 +1,7 @@
-import { redirect } from 'next/navigation';
+import { permanentRedirect } from 'next/navigation';
 
-// This page only renders when the app is built statically (output: 'export')
-// For dynamic deployments, the middleware will intercept requests to `/`
-// and redirect to the default locale (e.g. `/it`).
+// `/` has one canonical URL: /en. src/middleware.ts handles this in production;
+// this file is the fallback for static builds where no middleware runs.
 export default function RootPage() {
-  redirect('/it');
+  permanentRedirect('/en');
 }

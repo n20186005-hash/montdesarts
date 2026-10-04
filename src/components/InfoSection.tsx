@@ -1,7 +1,8 @@
-import { useTranslations, useMessages } from 'next-intl';
+import { useTranslations, useMessages, useLocale } from 'next-intl';
 
 export default function InfoSection() {
   const t = useTranslations('knowledge');
+  const locale = useLocale();
   const messages = useMessages() as any;
   const sections = (messages?.knowledge?.sections || []) as Array<{ id: string; title: string; content: string }>;
 
@@ -40,6 +41,17 @@ export default function InfoSection() {
                 >
                   {section.content}
                 </p>
+                {section.id === 'history' && (
+                  <p className="ml-14 mt-4">
+                    <a
+                      href={`/${locale}/history`}
+                      className="text-sm font-medium hover:underline"
+                      style={{ color: 'var(--accent)' }}
+                    >
+                      {t('historyCta')} →
+                    </a>
+                  </p>
+                )}
               </div>
             </div>
           ))}

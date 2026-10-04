@@ -1,24 +1,44 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useMessages } from 'next-intl';
 import { useState, useCallback } from 'react';
 
-const photos = [
-  { src: '/gallery/images (1).jpg', alt: '艺术山全景' },
-  { src: '/gallery/images (2).jpg', alt: '阶梯式花园' },
-  { src: '/gallery/images (3).jpg', alt: '中央喷泉' },
-  { src: '/gallery/images (4).jpg', alt: '上层广场视角' },
-  { src: '/gallery/images (5).jpg', alt: '傍晚金色时光' },
-  { src: '/gallery/images (6).jpg', alt: '新古典主义建筑' },
-  { src: '/gallery/images (7).jpg', alt: '皇家图书馆' },
-  { src: '/gallery/images (8).jpg', alt: '美术宫' },
-  { src: '/gallery/images (9).jpg', alt: '城市天际线' },
-  { src: '/gallery/images (10).jpg', alt: '布鲁塞尔风光' },
-  { src: '/gallery/images (11).jpg', alt: '广场夜景' },
+const photoFiles = [
+  'mont-des-arts-brussels-panorama.jpg',
+  'mont-des-arts-terraced-gardens.jpg',
+  'mont-des-arts-central-fountain.jpg',
+  'mont-des-arts-upper-plaza-viewpoint.jpg',
+  'mont-des-arts-golden-hour.jpg',
+  'mont-des-arts-neoclassical-architecture.jpg',
+  'mont-des-arts-kbr-royal-library.jpg',
+  'mont-des-arts-bozar-brussels.jpg',
+  'mont-des-arts-brussels-skyline.jpg',
+  'mont-des-arts-gardens-rooftops.jpg',
+  'mont-des-arts-square-at-night.jpg',
+];
+
+const fallbackAlts = [
+  'Mont des Arts panoramic view over Brussels',
+  'Mont des Arts terraced gardens',
+  'Mont des Arts central fountain',
+  'Mont des Arts upper plaza viewpoint',
+  'Mont des Arts viewpoint at golden hour',
+  'Neoclassical architecture at Mont des Arts',
+  'KBR Royal Library near Mont des Arts',
+  'BOZAR near Mont des Arts',
+  'Brussels skyline from Mont des Arts',
+  'Mont des Arts gardens and rooftops',
+  'Mont des Arts square at night',
 ];
 
 export default function Gallery() {
   const t = useTranslations('gallery');
+  const messages = useMessages() as any;
+  const localizedAlts: string[] = messages?.gallery?.alts || [];
+  const photos = photoFiles.map((file, i) => ({
+    src: `/gallery/${file}`,
+    alt: localizedAlts[i] || fallbackAlts[i] || 'Mont des Arts Brussels',
+  }));
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
 

@@ -1,117 +1,234 @@
 {
   "meta": {
-    "title": "Mont des Arts | Brussels",
-    "description": "Complete guide to Mont des Arts in Brussels, Belgium. Hours, directions, photos and reviews."
+    "title": "Mont des Arts Brussels – Gardens, Viewpoint & Visitor Guide",
+    "description": "Visit Mont des Arts in Brussels, Belgium. Discover the gardens, panoramic viewpoint, history, opening information, nearby museums, map and practical tips for your visit."
   },
   "header": {
     "home": "Home",
     "gallery": "Gallery",
     "reviews": "Reviews",
     "map": "Map",
+    "history": "History",
     "backToHome": "Back to Home"
   },
   "hero": {
     "title": "Mont des Arts",
-    "subtitle": "Brussels' most beautiful skyline & cultural heart",
+    "location": "Brussels, Belgium",
+    "subtitle": "The panoramic gardens and cultural heart of central Brussels",
     "rating": "4.6",
-    "reviewCount": "(17,117 reviews)",
+    "reviewCount": "17,894 Google reviews",
     "hours": "Open 24 hours",
-    "openMaps": "View Location"
+    "freeEntry": "Free entry",
+    "tags": "Gardens · Viewpoint · Museums",
+    "openMaps": "Get directions"
+  },
+  "whatIs": {
+    "title": "What is Mont des Arts?",
+    "text": "Mont des Arts, also known as Kunstberg, is a historic cultural district and landscaped public garden in central Brussels, known for its panoramic city viewpoint and its concentration of museums, libraries and cultural institutions.",
+    "alsoKnown": "French: Mont des Arts · Dutch: Kunstberg · Often searched as “mont des arts brussels”, “mont des arts bruxelles” and “Kunstberg Brussels”."
   },
   "intro": {
     "title": "Discover Mont des Arts",
-    "description": "Mont des Arts is the crowning achievement of Brussels' urban planning, symbolizing Belgium's modernization and national identity. It is one of the most successful urban public spaces in Europe. The terraced gardens and modernist glass buildings create a flowing perspective overlooking the old town, like a floating palace of art.",
+    "description": "Mont des Arts links the upper town and the lower town of Brussels with a staircase of terraced gardens, fountains and modernist buildings. It is one of the most successful urban public spaces in Europe: a place where neoclassical palace fronts and 20th-century glass architecture frame a single, uninterrupted view over the old town.",
     "visitGuide": {
       "title": "Visit Guide",
       "items": [
-        "The open square and gardens are open 24 hours, with the best light at dawn and dusk",
-        "Surrounding venues like the Royal Library and BOZAR have varying hours, generally 10am-5pm",
-        "Most venues are closed on Mondays, but the square itself is quieter in the early morning",
-        "Winter light shows extend hours to midnight during December"
+        "The square and gardens are open 24 hours a day and free of charge",
+        "Best light for photos: early morning and the hour before sunset",
+        "Nearby venues such as KBR and BOZAR keep their own hours, usually 10:00–17:00",
+        "Most museums in the district close on Mondays"
       ]
     },
     "alsoKnownAs": {
       "title": "Highlights",
       "items": [
-        "Square, Viewing Platform & Arts District",
+        "Terraced gardens, central fountain and panoramic viewpoint",
         "One of Europe's most successful public spaces",
-        "Perfect blend of neoclassical and modernist architecture"
+        "BOZAR, KBR and the Royal Museums of Fine Arts within a few minutes' walk"
       ]
     }
   },
+  "tickets": {
+    "title": "Do You Need Tickets for Mont des Arts?",
+    "answer": "No. Mont des Arts itself is a public outdoor space and does not require an entrance ticket. The gardens, terraces and viewpoint are free to visit at any time of day. Tickets are only needed for the surrounding museums and exhibitions, such as BOZAR, KBR and the Royal Museums of Fine Arts.",
+    "bullets": [
+      "Mont des Arts gardens, terraces and viewpoint — free, no ticket needed",
+      "BOZAR, KBR exhibitions and the Royal Museums of Fine Arts — separate tickets",
+      "Many Brussels museums are closed on Mondays",
+      "The Brussels Card covers several museums in this district"
+    ],
+    "note": "Always check the official website of the venue you plan to enter, as temporary exhibitions may use a separate entrance and timetable."
+  },
+  "gardens": {
+    "title": "Mont des Arts Gardens",
+    "text": "The Mont des Arts gardens are a sequence of symmetrical terraces, clipped hedges and lawns that step down the hillside towards the lower town. Designed in the post-war decades by landscape architect René Pechère, the geometric planting softens the monumental architecture around the square and gives visitors a quiet place to sit between museum visits.",
+    "bullets": [
+      "Formal terraces with seasonal flower beds and a central fountain",
+      "Shaded benches along the upper level, facing the old town",
+      "Refurbished several times since the 1990s, most recently with new lighting and planting"
+    ]
+  },
+  "viewpoint": {
+    "title": "Mont des Arts Viewpoint",
+    "text": "The upper terrace of Mont des Arts is one of the best free viewpoints in Brussels. From the balustrade you look down across the rooftops of the old town towards the tower of Brussels Town Hall on the Grand Place, with the spires of the Sablon churches to the left and, on clear days, the Atomium on the horizon.",
+    "bullets": [
+      "Best time: the hour before sunset, when the limestone façades turn golden",
+      "The viewpoint is outdoors, free and accessible at any hour",
+      "Tripods are tolerated outside events; drones are not allowed on the square"
+    ]
+  },
   "knowledge": {
     "title": "Explore the Wonders of Mont des Arts",
+    "historyCta": "Read the full history of Mont des Arts",
     "sections": [
       {
         "id": "history",
         "title": "Historical Significance",
-        "content": "Mont des Arts represents the pinnacle of Brussels urban planning, symbolizing Belgium's modernization and national identity. In the late 19th century, King Leopold II envisioned transforming this hillside into a grand commemorative district. After decades of debate and delays, the project was finally completed after World War II, but with a transformed purpose: creating a public space for ordinary citizens to enjoy panoramic city views rather than glorifying monarchy."
+        "content": "Mont des Arts represents the pinnacle of Brussels urban planning and symbolises Belgium's modernisation and national identity. In the late 19th century King Leopold II wanted to turn this hillside into a monumental arts district. After decades of debate and two world wars, the project was finally completed after 1945 with a different purpose: instead of glorifying the monarchy, it gave ordinary citizens a public place from which to see the whole city."
       },
       {
         "id": "architecture",
         "title": "Architectural Features",
-        "content": "The design centers on cascading terraced gardens and modernist glass buildings, creating a flowing perspective from above that overlooks the old town. The combination of neoclassical palace elements and 20th-century modernist simplicity presents an eclectic style that is both solemn and light. The Royal Library, BOZAR and other buildings are positioned at the edge of the square with carefully controlled heights, like a picture frame for the old town."
+        "content": "The design combines cascading terraced gardens with modernist glass and stone buildings, creating a flowing perspective that frames the old town below. Neoclassical palace elements sit next to the sober lines of 20th-century modernism, producing an eclectic style that is both solemn and light. KBR, BOZAR and the surrounding institutions are placed at the edge of the square with carefully controlled heights, like a picture frame around the historic centre."
       },
       {
         "id": "culture",
         "title": "Cultural Value",
-        "content": "Mont des Arts witnesses the transformation from royal privilege to civic culture. Today it is a gathering place for photography enthusiasts, street artists and tourists, representing Brussels' open and inclusive cultural DNA. The square has undergone two major renovations in the 1990s, adding modern lighting designs and sculptures, but its essential character remains unchanged."
+        "content": "Mont des Arts marks the shift from royal privilege to civic culture. Today it is a meeting place for photographers, street musicians and visitors from all over the world, and it expresses the open, multilingual character of Brussels. The square saw major refurbishment campaigns from the 1990s onwards, adding contemporary lighting and sculptures while keeping its original spirit."
       },
       {
         "id": "route",
         "title": "Recommended Walking Route",
-        "content": "Start at the highest point of the square around 10am for panoramic city views and the energy of morning commerce. Descend the main staircase to reach the central fountain. Stroll through the gardens to discover contemporary sculptures and hidden galleries. Finally, visit the Royal Library or BOZAR for internal exhibitions. This route takes about 2 hours, but can easily extend to half a day if you get captivated as I did."
+        "content": "Start at the top of the square around 10:00 for the panoramic view, then walk down the main staircase to the central fountain. Continue through the gardens to discover sculptures and small galleries, and finish inside KBR, BOZAR or the Royal Museums of Fine Arts. This loop takes about two hours; add the Grand Place and the Sablon and you easily fill half a day."
+      }
+    ]
+  },
+  "info": {
+    "title": "Essential Information",
+    "sections": [
+      {
+        "id": "hours",
+        "title": "Opening Hours",
+        "content": "The Mont des Arts square and gardens are open 24 hours a day and are one of Brussels' everyday leisure spaces. Night visits are possible, but the light is most beautiful at dawn and dusk. Surrounding venues such as KBR and BOZAR keep their own hours, generally 10:00 to 17:00, and are usually closed on Mondays. During the winter light shows in December, evening events on the square run later into the night."
+      },
+      {
+        "id": "admission",
+        "title": "Admission & Tickets",
+        "content": "Access to Mont des Arts is free: there is no gate, no ticket office and no closing time for the outdoor space. Nearby museums charge separately, with adult tickets for major institutions typically ranging from about €8 to €15. Reduced rates are usually offered to students, seniors and under-26s, and the Brussels Card bundles several museums in this district."
+      },
+      {
+        "id": "transport",
+        "title": "Getting There",
+        "content": "Mont des Arts sits between Brussels-Central Station and the Royal Quarter, about a five-minute walk from the station exit. From Brussels-South (Midi) station take metro lines 2 or 6 to Parc/Park and walk through the Royal Park. From the Grand Place, walk up through the Galeries Royales Saint-Hubert and continue uphill for roughly ten minutes. Trams and buses stop at Mont des Arts / Kunstberg on the boulevards below the square."
+      },
+      {
+        "id": "photography",
+        "title": "Photography Tips",
+        "content": "The steps and paving of Mont des Arts are pale stone and reflect strong light, so a polarising filter helps reduce glare. The classic shot is taken from the centre of the upper terrace towards the Town Hall tower, ideally in the hour before sunset. Low angles in front of the fountain catch the spray in the light, and the staircase works well for silhouettes of people on the level above. Drones are prohibited on the square."
       }
     ]
   },
   "gallery": {
     "title": "Photo Gallery",
-    "subtitle": "Stunning views of Brussels' cultural heart",
-    "captions": [
-      "Panoramic view of Mont des Arts",
-      "Terraced gardens and old town",
-      "Central fountain",
-      "View from the upper plaza",
-      "Evening golden light",
-      "Street musicians and artists"
+    "subtitle": "Mont des Arts photos: gardens, viewpoint and the Brussels skyline",
+    "alts": [
+      "Mont des Arts panoramic view over Brussels",
+      "Mont des Arts terraced gardens and the old town",
+      "Mont des Arts central fountain",
+      "Mont des Arts upper plaza viewpoint",
+      "Mont des Arts viewpoint at golden hour",
+      "Neoclassical architecture around Mont des Arts",
+      "KBR Royal Library of Belgium near Mont des Arts",
+      "BOZAR Centre for Fine Arts near Mont des Arts",
+      "Brussels city skyline seen from Mont des Arts",
+      "Mont des Arts gardens and rooftops of Brussels",
+      "Mont des Arts square at night"
     ],
-    "viewAll": "View locations on Google Maps"
+    "viewAll": "View this location on Google Maps"
   },
   "reviews": {
     "title": "Visitor Reviews",
-    "declaration": "Visitor feedback can be viewed via Google Maps (external link).",
-    "moreReviews": "View locations on Google Maps",
-    "items": [
+    "ratingLabel": "Google Maps rating",
+    "reviewCount": "based on 17,894 reviews",
+    "checked": "Rating checked October 2026 · Google Maps",
+    "declaration": "This is an independent visitor guide. We do not reproduce individual reviews — the latest visitor feedback can be read on Google Maps.",
+    "moreReviews": "See latest reviews on Google Maps"
+  },
+  "accommodation": {
+    "title": "Where to Stay Near Mont des Arts",
+    "intro": "Mont des Arts sits between the historic centre and the Royal Quarter, so most areas of central Brussels are within a short walk. These are the districts travellers usually choose:",
+    "places": [
       {
-        "name": "Marie L.",
-        "date": "March 2026",
-        "rating": 5,
-        "text": "Absolutely magical at sunset! The way the golden light washes over the neoclassical buildings is unforgettable. A perfect spot for photography."
+        "name": "Grand Place & Îlot Sacré (5–10 min walk)",
+        "description": "The classic choice for a first visit: hotels in restored 17th-century houses, right next to the Grand Place, the Manneken Pis and hundreds of restaurants. Streets can be lively at night."
       },
       {
-        "name": "James K.",
-        "date": "February 2026",
-        "rating": 5,
-        "text": "One of the most beautiful public squares I've ever seen. The cascading gardens and views over Brussels are stunning. Free to visit!"
+        "name": "Royal Quarter & Sablon (5–8 min walk)",
+        "description": "Quiet, elegant streets between the Royal Palace and the Sablon, with boutique hotels and design apartments. The closest area to BOZAR and the Royal Museums of Fine Arts."
       },
       {
-        "name": "Sophie M.",
-        "date": "January 2026",
-        "rating": 4,
-        "text": "Great location with amazing views of the city. The surrounding museums are worth visiting. Come early morning for fewer crowds."
+        "name": "Around Brussels-Central Station (3–6 min walk)",
+        "description": "Practical for short stays and early trains: chain hotels and aparthotels on the boulevards between the station and Mont des Arts, with direct airport connections."
       },
       {
-        "name": "Thomas B.",
-        "date": "December 2025",
-        "rating": 5,
-        "text": "The winter light show in December is breathtaking. The square transforms into a magical wonderland. Highly recommended!"
+        "name": "Lower town & Saint-Gilles (15–20 min by metro)",
+        "description": "The best value for money. Art-deco townhouses, hostels and apart-hotels south of the ring, connected to Mont des Arts by metro lines 2 and 6 in about ten minutes."
       }
     ]
   },
   "mapSection": {
-    "title": "How to Get Here",
-    "subtitle": "Mont des Arts 1, 1000 Brussels, Belgium",
-    "openMaps": "View on Google Maps"
+    "title": "Map & How to Get to Mont des Arts",
+    "subtitle": "Mont des Arts 1, 1000 Bruxelles, Belgium · Plus Code R9V4+9X Brussels",
+    "openMaps": "Open in Google Maps"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "What is Mont des Arts?",
+        "a": "Mont des Arts is a historic cultural district and landscaped public garden in central Brussels, Belgium. Known in Dutch as Kunstberg, it is famous for its terraced gardens, its central fountain and its panoramic viewpoint over the old town, and for the museums and cultural institutions gathered around the square."
+      },
+      {
+        "q": "Do you need tickets for Mont des Arts?",
+        "a": "No. Mont des Arts is a public outdoor space with no entrance ticket and no gate — the gardens, terraces and viewpoint are free to visit at any time. You only need tickets for the surrounding attractions such as BOZAR, KBR exhibitions and the Royal Museums of Fine Arts."
+      },
+      {
+        "q": "Is Mont des Arts free to visit?",
+        "a": "Yes. Walking through the square and gardens, sitting on the terraces and enjoying the viewpoint are completely free. Only indoor museums and temporary exhibitions around the square charge admission."
+      },
+      {
+        "q": "What are the opening hours of Mont des Arts?",
+        "a": "The outdoor square and gardens are open 24 hours a day, every day of the year. The surrounding institutions keep their own schedules, usually around 10:00 to 17:00, and most of them close on Mondays."
+      },
+      {
+        "q": "How do I get to Mont des Arts from Brussels-Central Station?",
+        "a": "Mont des Arts is about a five-minute walk from Brussels-Central Station: leave towards the Royal Quarter and walk up the slope past BOZAR. Trams and buses also stop at the Mont des Arts / Kunstberg stops on the boulevards below the square."
+      },
+      {
+        "q": "How far is Mont des Arts from the Grand Place?",
+        "a": "Around ten minutes on foot. Walk through the Galeries Royales Saint-Hubert and continue uphill; the climb ends at the upper terrace of Mont des Arts, from where you can look back over the Grand Place tower."
+      },
+      {
+        "q": "Where is the best viewpoint at Mont des Arts?",
+        "a": "The balustrade of the upper terrace, directly above the main staircase, offers the classic panorama over the rooftops of the old town towards the Town Hall tower on the Grand Place. Sunset and the hour before it are the most popular moments."
+      },
+      {
+        "q": "What is the Dutch name for Mont des Arts?",
+        "a": "Kunstberg, literally “art hill”. Both names — Mont des Arts in French and Kunstberg in Dutch — refer to the same square and gardens in central Brussels, and both appear on public signage and transport stops."
+      },
+      {
+        "q": "How much time do you need at Mont des Arts?",
+        "a": "Allow about 45 minutes to an hour to walk the gardens, the staircase and the viewpoint. Adding one museum such as BOZAR or the Royal Museums of Fine Arts brings the visit to two or three hours, and a half-day is enough for the square plus the Grand Place and the Sablon."
+      },
+      {
+        "q": "Which museums are near Mont des Arts?",
+        "a": "BOZAR (Centre for Fine Arts), KBR (Royal Library of Belgium), the Royal Museums of Fine Arts of Belgium, the Magritte Museum and the Musical Instruments Museum are all within a few minutes' walk of the square."
+      },
+      {
+        "q": "What is the best time of day to visit Mont des Arts?",
+        "a": "Early morning is quietest and best for photos without crowds; the hour before sunset gives the warmest light on the limestone façades. December brings evening light installations to the square."
+      }
+    ]
   },
   "footer": {
     "rights": "© 2026 Mont des Arts Travel Guide · All rights reserved.",
@@ -127,9 +244,51 @@
     },
     "disclaimer": "This website is an independent third-party tourist information project. We are not affiliated with the local government or any other official institutions."
   },
+  "history": {
+    "metaTitle": "History of Mont des Arts Brussels – From Leopold II to Kunstberg",
+    "metaDescription": "How Mont des Arts in Brussels was created: Leopold II's urban vision, the 1910 International Exposition, the post-war reconstruction, Expo 58, René Pechère's gardens and today's cultural district.",
+    "title": "History of Mont des Arts",
+    "intro": "Mont des Arts (Kunstberg in Dutch) took more than half a century to build. What began as a royal ambition to create a monumental “hill of the arts” became, after two world wars, one of the most successful public spaces in Europe.",
+    "sections": [
+      {
+        "heading": "A hillside of narrow streets",
+        "content": "Before the twentieth century, the slope linking the upper town — the Royal Quarter and the Coudenberg — to the lower town was occupied by a dense popular district of narrow streets, workshops and small houses. It was a busy, crowded hillside in the middle of a capital that was growing fast, and it stood directly between the royal palace and the commercial centre."
+      },
+      {
+        "heading": "Leopold II and the idea of a “Mont des Arts”",
+        "content": "In the late nineteenth century King Leopold II promoted a series of ambitious urban projects intended to give Brussels the monumentality of Paris or Vienna. One of them was the transformation of this hillside into a “Mont des Arts”, a quarter that would gather museums, libraries and exhibition halls on the slope. The name — art hill in French, Kunstberg in Dutch — survives from that period."
+      },
+      {
+        "heading": "The 1910 Brussels International Exposition",
+        "content": "The world fair of 1910 brought the idea to life for the first time. Temporary palaces and ornamental gardens were laid out on the slope, giving visitors a taste of what a monumental arts district could look like. When the fair ended, the temporary structures disappeared, but the ambition remained."
+      },
+      {
+        "heading": "Half a century of debate",
+        "content": "Work on the definitive project began in the interwar years, when parts of the old district were cleared, but it advanced slowly. Competing architectural plans, financing problems and two world wars delayed completion for decades, and for a long time the hillside was an open wound in the middle of Brussels."
+      },
+      {
+        "heading": "The post-war reconstruction and Expo 58",
+        "content": "After 1945 the site was rebuilt as a coherent modernist ensemble. The purpose had changed: rather than celebrating a dynasty, the new Mont des Arts was conceived as a public space from which ordinary citizens could see their whole city. Construction accelerated in the 1950s, and the 1958 World's Fair (Expo 58) brought millions of visitors to a Brussels that was presenting itself as modern and international."
+      },
+      {
+        "heading": "René Pechère's terraced gardens",
+        "content": "The gardens that step down the hillside are associated with the Belgian landscape architect René Pechère. His symmetrical terraces, clipped hedges, lawns and central fountain gave the monumental architecture a calm, human scale and created the green setting that makes the square pleasant to use. The planting has been renewed several times since, most notably in campaigns from the 1990s onwards."
+      },
+      {
+        "heading": "KBR, BOZAR and the museum quarter",
+        "content": "The cultural institutions around the square were built at different moments. BOZAR, the Centre for Fine Arts designed by Victor Horta, opened in 1928 and remains one of Brussels' major concert and exhibition venues. The Royal Library of Belgium, today KBR, occupies the eastern side of the square in a building largely erected in the 1950s and 1960s. A short walk away, the Royal Museums of Fine Arts and the Magritte Museum complete one of the densest museum districts in Europe."
+      },
+      {
+        "heading": "Mont des Arts today",
+        "content": "Mont des Arts is now a free, open public space used every day by Brussels residents and visitors. Its upper terrace has become the classic viewpoint over the old town, while the gardens host events, light installations and informal concerts. Continuously maintained by the Brussels-Capital Region, it remains the clearest expression of how a royal city project was turned into a civic one."
+      }
+    ],
+    "sourcesTitle": "Sources & further reading",
+    "sourcesIntro": "For official information on exhibitions, opening hours and events, consult the institutions and tourism organisations below."
+  },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: April 2026",
+    "lastUpdated": "Last updated: October 2026",
     "sections": [
       {
         "heading": "1. Information Collection",
@@ -151,7 +310,7 @@
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Last updated: April 2026",
+    "lastUpdated": "Last updated: October 2026",
     "sections": [
       {
         "heading": "1. Acceptance of Terms",
@@ -192,52 +351,6 @@
   },
   "officialManagement": {
     "title": "About Mont des Arts",
-    "text": "Mont des Arts is managed and maintained by the Brussels-Capital Region. As one of the most important public spaces in Brussels and even Belgium, the square represents the country's urban planning achievements. The surrounding museums and cultural institutions operate independently but share a commitment to preserving and showcasing Belgium's cultural heritage."
-  },
-  "info": {
-    "title": "Essential Information",
-    "sections": [
-      {
-        "id": "hours",
-        "title": "Opening Hours",
-        "content": "The Mont des Arts open square and gardens are open 24 hours a day, serving as Brussels' everyday leisure space. Night visits are possible, but the light is most beautiful at dawn and dusk. Surrounding venues like the Royal Library and BOZAR have varying hours, generally 10am-5pm, with most closed on Mondays. During the December winter light show, hours extend to midnight. It is recommended to avoid Sunday mornings when some venues are closed, but the square itself is actually quieter then."
-      },
-      {
-        "id": "tickets",
-        "title": "Admission",
-        "content": "The Mont des Arts square itself is free and open to the public with no admission fee. Surrounding venues like the Magritte Museum, Museum of Ancient Art, and Royal Library require separate tickets, with adult tickets ranging from 8-15 euros. Students and seniors receive discounts, and the first Wednesday of each month offers free admission in the afternoon. The Brussels Card covers major venues, with a one-day pass around 30 euros."
-      },
-      {
-        "id": "transport",
-        "title": "Transportation",
-        "content": "From Brussels International Airport, take the airport express about 20 minutes to Brussels-Central Station, then walk about 5 minutes to Mont des Arts. From Brussels-South Station, take Metro Line 2 or 6 to Park Station, then walk through the Royal Park. A Brussels day pass is recommended, with single tickets at 2.5 euros and day passes at 8 euros. If walking from Grand Place, simply pass through the Galeries Royales Saint-Hubert and walk up the slope for about 10 minutes."
-      },
-      {
-        "id": "photography",
-        "title": "Photography Tips",
-        "content": "The steps and ground tiles at Mont des Arts are mostly light gray and easily reflect strong light. A polarizing filter is recommended to reduce glare and reflections. Drones are prohibited in the square and will be stopped by security personnel. Street performers are active on weekends; please tip them 1-2 euros if you take photos. Best shooting spots: top level center facing the Town Hall tower for sunset shots; low-angle fountain shots for rainbow effects; the staircase for silhouette shots of people on the upper level."
-      }
-    ]
-  },
-  "accommodation": {
-    "title": "Where to Stay",
-    "places": [
-      {
-        "name": "Premium Value",
-        "description": "Boutique hotels converted from historic buildings on the edge of the old town. Rooms offer wide views overlooking Mont des Arts, with balconies for admiring the enchanting sunrise over rooftops."
-      },
-      {
-        "name": "Design Choice",
-        "description": "Minimalist design apartments near BOZAR, blending concrete with wood in a Nordic style. Located in the heart of the arts district, just a short walk from Mont des Arts."
-      },
-      {
-        "name": "Unique Experience",
-        "description": "A vintage residence hidden in a quiet alley downtown, converted from a century-old mansion with rich atmosphere. Enjoy warm hospitality with local snacks and beverages."
-      },
-      {
-        "name": "Budget Option",
-        "description": "High-value budget hostel in the southeast of the city with convenient transportation. The terrace offers distant views of the Mont des Arts fountain. Relaxed evening atmosphere, perfect for travelers to mingle."
-      }
-    ]
+    "text": "Mont des Arts is managed and maintained by the Brussels-Capital Region. As one of the most important public spaces in Brussels and in Belgium, the square represents the country's urban planning achievements. The surrounding museums and cultural institutions operate independently but share a commitment to preserving and showcasing Belgium's cultural heritage."
   }
 }

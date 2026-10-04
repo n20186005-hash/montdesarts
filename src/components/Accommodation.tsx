@@ -21,7 +21,10 @@ export default function Accommodation() {
         >
           {t('title')}
         </h2>
-        <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
+        <div className="w-12 h-0.5 mb-6" style={{ background: 'var(--accent)' }} />
+        <p className="text-base leading-relaxed mb-10 max-w-3xl" style={{ color: 'var(--text-secondary)' }}>
+          {t('intro')}
+        </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {places.map((place, i) => (

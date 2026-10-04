@@ -1,24 +1,19 @@
 import { setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import CookieSettingsClient from './CookieSettingsClient';
+import { absoluteUrl, languageAlternates } from '@/i18n/routing';
 
 export async function generateMetadata({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const baseUrl = 'https://montdesarts.org';
-  const zhUrl = `${baseUrl}/cookie-settings`;
-  const enUrl = `${baseUrl}/en/cookie-settings`;
+  const { locale } = await params;
 
   return {
     alternates: {
-      canonical: zhUrl,
-      languages: {
-        'zh': zhUrl,
-        'en': enUrl,
-        'x-default': zhUrl,
-      },
+      canonical: absoluteUrl(locale, '/cookie-settings'),
+      languages: languageAlternates('/cookie-settings'),
     },
   };
 }

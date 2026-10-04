@@ -1,10 +1,10 @@
-import { useTranslations } from 'next-intl';
-import { useLocale } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 export default function Footer() {
   const t = useTranslations('footer');
+  const th = useTranslations('header');
   const locale = useLocale();
-  const prefix = locale === 'zh' ? '' : `/${locale}`;
+  const prefix = `/${locale}`;
 
   return (
     <footer
@@ -36,6 +36,12 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex flex-wrap gap-4 text-sm mt-4 sm:mt-0">
+            <a href={prefix} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
+              {th('home')}
+            </a>
+            <a href={`${prefix}/history`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
+              {th('history')}
+            </a>
             <a href={`${prefix}/privacy-policy`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
               {t('privacy')}
             </a>
