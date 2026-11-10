@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:preview": "node scripts/build-preview.mjs",
+    "deploy:preview": "wrangler preview --config wrangler.preview.jsonc"
   },
   "dependencies": {
     "next": "15.5.29",
@@ -22,11 +24,15 @@
     "eslint": "9.39.1",
     "eslint-config-next": "15.5.29",
     "tailwindcss": "^4.0.0",
-    "typescript": "^5.7.0"
+    "typescript": "^5.7.0",
+    "@opennextjs/cloudflare": "1.20.16",
+    "wrangler": "4.160.0"
   },
   "allowScripts": {
     "@parcel/watcher@2.5.6": true,
-    "@swc/core@1.15.32": true
+    "@swc/core@1.15.32": true,
+    "esbuild@0.28.2": true,
+    "workerd@1.20261110.1": true
   },
   "overrides": {
     "sharp": "0.35.5"

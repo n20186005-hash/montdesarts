@@ -37,3 +37,8 @@ next-env.d.ts
 .idea/
 *.swp
 *.swo
+
+# Explicit nonproduction preview output
+.open-next/
+.wrangler/
+.dev.vars*
