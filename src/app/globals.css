@@ -83,10 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Hide Google Maps attribution */
-.gm-style-cc,
-.gmnoprint {
-  display: none !important;
-}
+
 
 /* Map container */
 .map-container iframe {
@@ -190,3 +187,6 @@ h1, h2, h3, h4, h5, h6 {
 a {
   transition: color 0.2s ease;
 }
+
+.photo-dialog { width: min(960px, 94vw); max-height: 94vh; margin: auto; }
+section[id], div[id] { scroll-margin-top: 5rem; }

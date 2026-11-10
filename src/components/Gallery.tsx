@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations, useMessages } from 'next-intl';
-import { useState, useCallback } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 const photoFiles = [
   'mont-des-arts-brussels-panorama.jpg',
@@ -18,163 +18,77 @@ const photoFiles = [
 ];
 
 const fallbackAlts = [
-  'Mont des Arts panoramic view over Brussels',
-  'Mont des Arts terraced gardens',
-  'Mont des Arts central fountain',
-  'Mont des Arts upper plaza viewpoint',
-  'Mont des Arts viewpoint at golden hour',
-  'Neoclassical architecture at Mont des Arts',
-  'KBR Royal Library near Mont des Arts',
-  'BOZAR near Mont des Arts',
-  'Brussels skyline from Mont des Arts',
-  'Mont des Arts gardens and rooftops',
-  'Mont des Arts square at night',
+  "Formal garden beds and clipped hedges beside a central path, with city buildings in the distance.",
+  "An equestrian statue on a pedestal in a paved plaza beside large buildings.",
+  "A long formal garden seen at sunset, with patterned flowerbeds and buildings along both sides.",
+  "People walk beneath a leafy arch between buildings, with rooftops visible beyond.",
+  "A vaulted covered passage with colorful graffiti along both walls.",
+  "Round fountain basins beside a tree-lined path and trimmed hedges.",
+  "A paved plaza with a low stone monument, trees, and a light-colored building.",
+  "A stone structure on a paved terrace, with rooftops and buildings in the distance.",
+  "Leafy trees above trimmed hedges and flowerbeds, with round fountain basins below.",
+  "An illuminated clock, sculpted figures, and bells on a building facade at night.",
+  "A formal garden path and flowerbeds illuminated at night, with buildings beyond."
 ];
 
 export default function Gallery() {
   const t = useTranslations('gallery');
-  const messages = useMessages() as any;
-  const localizedAlts: string[] = messages?.gallery?.alts || [];
-  const photos = photoFiles.map((file, i) => ({
-    src: `/gallery/${file}`,
-    alt: localizedAlts[i] || fallbackAlts[i] || 'Mont des Arts Brussels',
-  }));
+  const messages = useMessages() as { gallery?: { alts?: string[] } };
+  const photos = photoFiles.map((file, index) => ({ src: `/gallery/${file}`, alt: messages.gallery?.alts?.[index] || fallbackAlts[index] }));
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+  const [open, setOpen] = useState(false);
+  const dialog = useRef<HTMLDialogElement>(null);
+  const trigger = useRef<HTMLButtonElement | null>(null);
+  const closeButton = useRef<HTMLButtonElement>(null);
+  const change = (amount: number) => setCurrentIndex(index => (index + amount + photos.length) % photos.length);
 
-  const goToPrevious = useCallback(() => {
-    setCurrentIndex((prev) => (prev === 0 ? photos.length - 1 : prev - 1));
-  }, []);
+  useEffect(() => {
+    const element = dialog.current;
+    if (!element) return;
+    if (open) {
+      element.showModal();
+      closeButton.current?.focus();
+      const previousOverflow = document.body.style.overflow;
+      document.body.style.overflow = 'hidden';
+      return () => { document.body.style.overflow = previousOverflow; };
+    }
+    if (element.open) element.close();
+    trigger.current?.focus();
+  }, [open]);
 
-  const goToNext = useCallback(() => {
-    setCurrentIndex((prev) => (prev === photos.length - 1 ? 0 : prev + 1));
-  }, []);
-
-  const openLightbox = () => setIsLightboxOpen(true);
-  const closeLightbox = () => setIsLightboxOpen(false);
-
-  return (
-    <>
-      <section id="gallery" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
-        <div className="max-w-6xl mx-auto">
-          <h2
-            className="font-display text-3xl sm:text-4xl font-semibold mb-2"
-            style={{ color: 'var(--text-primary)' }}
-          >
-            {t('title')}
-          </h2>
-          <p className="mb-8" style={{ color: 'var(--text-muted)' }}>{t('subtitle')}</p>
-          <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
-
-          <div className="relative">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
-              {photos.slice(0, 8).map((photo, i) => (
-                <div
-                  key={i}
-                  className={`gallery-item relative group cursor-pointer ${i === 0 ? 'col-span-2 row-span-2' : ''}`}
-                  onClick={() => {
-                    setCurrentIndex(i);
-                    openLightbox();
-                  }}
-                >
-                  <img
-                    src={photo.src}
-                    alt={photo.alt}
-                    className="w-full h-full object-cover rounded-lg"
-                    style={{ minHeight: i === 0 ? '400px' : '180px' }}
-                    loading="lazy"
-                  />
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-lg flex items-end">
-                    <p className="text-white text-sm p-3 opacity-0 group-hover:opacity-100 transition-opacity">
-                      {photo.alt}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            <button
-              onClick={goToPrevious}
-              className="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors"
-              aria-label="Previous photo"
-            >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <polyline points="15 18 9 12 15 6" />
-              </svg>
-            </button>
-            <button
-              onClick={goToNext}
-              className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors"
-              aria-label="Next photo"
-            >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <polyline points="9 18 15 12 9 6" />
-              </svg>
-            </button>
-
-            <div className="flex justify-center mt-6 gap-4 items-center">
-              <a
-                href="https://maps.app.goo.gl/cCCbQsPnaB1Vrnqp9"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm hover:underline"
-                style={{ color: 'var(--accent)' }}
-              >
-                {t('viewAll')}
-              </a>
-            </div>
-          </div>
+  return <>
+    <section id="gallery" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
+      <div className="max-w-6xl mx-auto">
+        <h2 className="font-display text-3xl sm:text-4xl font-semibold mb-3">{t('title')}</h2>
+        <p className="mb-8" style={{ color: 'var(--text-muted)' }}>{t('subtitle')}</p>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+          {photos.map((photo, index) => <button type="button" key={photo.src}
+            className="gallery-item rounded-lg overflow-hidden text-left focus-visible:outline-4 focus-visible:outline-offset-4"
+            aria-label={`${t('open')}: ${photo.alt}`} aria-haspopup="dialog"
+            onClick={event => { trigger.current = event.currentTarget; setCurrentIndex(index); setOpen(true); }}>
+            <img src={photo.src} alt={photo.alt} className="w-full h-44 sm:h-56 object-cover" loading="lazy" />
+            <span className="block text-xs p-3" style={{ color: 'var(--text-secondary)' }}>{photo.alt}</span>
+          </button>)}
         </div>
-      </section>
-
-      {isLightboxOpen && (
-        <div
-          className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center"
-          onClick={closeLightbox}
-        >
-          <button
-            onClick={closeLightbox}
-            className="absolute top-4 right-4 w-10 h-10 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors"
-            aria-label="Close lightbox"
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
-              <line x1="18" y1="6" x2="6" y2="18" />
-              <line x1="6" y1="6" x2="18" y2="18" />
-            </svg>
-          </button>
-
-          <button
-            onClick={(e) => { e.stopPropagation(); goToPrevious(); }}
-            className="absolute left-4 w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors"
-            aria-label="Previous photo"
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
-              <polyline points="15 18 9 12 15 6" />
-            </svg>
-          </button>
-
-          <img
-            src={photos[currentIndex].src}
-            alt={photos[currentIndex].alt}
-            className="max-w-[90vw] max-h-[85vh] object-contain rounded-lg"
-            onClick={(e) => e.stopPropagation()}
-          />
-
-          <button
-            onClick={(e) => { e.stopPropagation(); goToNext(); }}
-            className="absolute right-4 w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors"
-            aria-label="Next photo"
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
-              <polyline points="9 18 15 12 9 6" />
-            </svg>
-          </button>
-
-          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white text-sm">
-            {currentIndex + 1} / {photos.length}
-          </div>
+        <p className="text-center mt-6"><a href="https://maps.app.goo.gl/cCCbQsPnaB1Vrnqp9" target="_blank" rel="noopener noreferrer" className="text-sm underline" style={{ color: 'var(--accent)' }}>{t('viewAll')}</a></p>
+      </div>
+    </section>
+    <dialog ref={dialog} aria-label={t('title')} className="photo-dialog rounded-xl p-0 bg-black text-white backdrop:bg-black/85"
+      onCancel={event => { event.preventDefault(); setOpen(false); }}
+      onClick={event => { if (event.target === event.currentTarget) setOpen(false); }}
+      onKeyDown={event => { if (event.key === 'ArrowLeft') { event.preventDefault(); change(-1); } if (event.key === 'ArrowRight') { event.preventDefault(); change(1); } }}>
+      <div className="p-3 sm:p-5">
+        <div className="flex justify-between items-center gap-3 mb-3">
+          <p aria-live="polite" className="text-sm">{currentIndex + 1} / {photos.length}</p>
+          <button ref={closeButton} type="button" className="px-4 py-3 rounded bg-white/20" onClick={() => setOpen(false)}>{t('close')}</button>
         </div>
-      )}
-    </>
-  );
+        <img src={photos[currentIndex].src} alt={photos[currentIndex].alt} className="max-w-full max-h-[65vh] object-contain mx-auto" />
+        <p className="text-sm text-center mt-3">{photos[currentIndex].alt}</p>
+        <div className="flex justify-between gap-3 mt-4">
+          <button type="button" onClick={() => change(-1)} className="rounded px-4 py-3 bg-white/20">← {t('previous')}</button>
+          <button type="button" onClick={() => change(1)} className="rounded px-4 py-3 bg-white/20">{t('next')} →</button>
+        </div>
+      </div>
+    </dialog>
+  </>;
 }

@@ -21,6 +21,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  if (!routing.locales.includes(locale as typeof routing.locales[number])) notFound();
   const messages = (await import(`@/messages/${locale}.json`)).default;
   const selfUrl = absoluteUrl(locale);
 
@@ -49,7 +50,7 @@ export async function generateMetadata({
           url: '/gallery/mont-des-arts-brussels-panorama.jpg',
           width: 1200,
           height: 800,
-          alt: 'Mont des Arts panoramic viewpoint over Brussels',
+          alt: 'Formal garden beds and clipped hedges beside a central path, with city buildings in the distance.',
         },
       ],
     },

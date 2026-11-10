@@ -1,10 +1,12 @@
+import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations, useMessages, useLocale } from 'next-intl';
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { routing, absoluteUrl, languageAlternates } from '@/i18n/routing';
-import { buildArticle, buildBreadcrumb } from '@/lib/site';
+import { nearbyCopy } from '@/content/nearby';
+import { ATTRACTION, buildArticle, buildBreadcrumb } from '@/lib/site';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -16,6 +18,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  if (!routing.locales.includes(locale as typeof routing.locales[number])) notFound();
   const messages = (await import(`@/messages/${locale}.json`)).default;
   const selfUrl = absoluteUrl(locale, '/history');
 
@@ -78,6 +81,8 @@ function HistoryContent() {
           {t('intro')}
         </p>
 
+        <p className="text-sm mb-10" style={{ color: 'var(--text-muted)' }}>{nearbyCopy(locale).checked}</p>
+
         <div className="space-y-10">
           {sections.map((section, i) => (
             <section key={i}>
@@ -105,12 +110,7 @@ function HistoryContent() {
             {t('sourcesIntro')}
           </p>
           <ul className="space-y-2">
-            {[
-              { label: 'Visit Brussels', url: 'https://visit.brussels/en' },
-              { label: 'City of Brussels', url: 'https://www.brussels.be/' },
-              { label: 'KBR', url: 'https://www.kbr.be/en' },
-              { label: 'Belgium.be', url: 'https://www.belgium.be/en' },
-            ].map((source) => (
+            {ATTRACTION.officialSources.map((source) => (
               <li key={source.url}>
                 <a
                   href={source.url}
@@ -146,6 +146,7 @@ export default async function HistoryPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  if (!routing.locales.includes(locale as typeof routing.locales[number])) notFound();
   setRequestLocale(locale);
 
   return (

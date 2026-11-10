@@ -12,6 +12,10 @@ export const routing = defineRouting({
     '/privacy-policy': '/privacy-policy',
     '/terms-of-service': '/terms-of-service',
     '/cookie-settings': '/cookie-settings',
+    '/kbr-museum': '/kbr-museum',
+    '/bozar': '/bozar',
+    '/magritte-museum': '/magritte-museum',
+    '/musical-instruments-museum': '/musical-instruments-museum',
   },
 });
 

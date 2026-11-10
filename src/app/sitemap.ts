@@ -1,11 +1,12 @@
 import type { MetadataRoute } from 'next';
 import { routing, absoluteUrl } from '@/i18n/routing';
+import { GUIDE_SLUGS } from '@/content/nearby';
 
 // Only canonical URLs: https + non-www + locale prefix.
-const PATHS = ['', '/history'];
+const PATHS = ['', '/history', ...GUIDE_SLUGS.map(slug => `/${slug}`)];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date('2026-10-01');
+  const lastModified = new Date('2026-11-10');
   const entries: MetadataRoute.Sitemap = [];
 
   for (const path of PATHS) {

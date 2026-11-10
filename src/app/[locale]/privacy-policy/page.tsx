@@ -1,7 +1,8 @@
+import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations, useLocale, useMessages } from 'next-intl';
 import type { Metadata } from 'next';
-import { absoluteUrl, languageAlternates } from '@/i18n/routing';
+import { routing, absoluteUrl, languageAlternates } from '@/i18n/routing';
 
 export async function generateMetadata({
   params,
@@ -9,8 +10,15 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  if (!routing.locales.includes(locale as typeof routing.locales[number])) notFound();
+  const messages = (await import(`@/messages/${locale}.json`)).default;
 
   return {
+    title: messages.privacy.title + ' · Mont des Arts',
+    description: messages.privacy.title + ' · Mont des Arts Travel Guide',
+    openGraph: { title: messages.privacy.title + ' · Mont des Arts', description: messages.privacy.title + ' · Mont des Arts Travel Guide' },
+    twitter: { title: messages.privacy.title + ' · Mont des Arts', description: messages.privacy.title + ' · Mont des Arts Travel Guide' },
+    robots: { index: false, follow: true },
     alternates: {
       canonical: absoluteUrl(locale, '/privacy-policy'),
       languages: languageAlternates('/privacy-policy'),
@@ -59,6 +67,10 @@ function PrivacyContent() {
             </div>
           ))}
         </div>
+        <ul className="mt-8 space-y-3">
+          <li><a href="https://policies.google.com/privacy" className="underline" style={{ color: 'var(--accent)' }}>Google · Privacy</a></li>
+          <li><a href="https://developers.cloudflare.com/web-analytics/" className="underline" style={{ color: 'var(--accent)' }}>Cloudflare Web Analytics</a></li>
+        </ul>
       </div>
     </div>
   );
@@ -70,6 +82,7 @@ export default async function PrivacyPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  if (!routing.locales.includes(locale as typeof routing.locales[number])) notFound();
   setRequestLocale(locale);
   return <PrivacyContent />;
 }

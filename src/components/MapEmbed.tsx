@@ -20,12 +20,8 @@ export default function MapEmbed() {
           className="map-container relative rounded-xl overflow-hidden"
           style={{ border: '1px solid var(--map-border)' }}
         >
-          {/*
-            NOTE: Google Maps attribution is hidden via CSS (.gm-style-cc, .gmnoprint).
-            This is for visual cleanliness only. Google's Terms of Service apply.
-          */}
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.7374964887386!2d4.358737776857309!3d50.84349567173237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c47865b9e6d7%3A0x5d48a71d6e8e8b6!2sMont%20des%20Arts!5e0!3m2!1sen!2sbe!4v1714510014129!5m2!1sen!2sbe"
+            src="https://www.google.com/maps?q=50.8434789,4.3574205&z=16&output=embed"
             width="100%"
             height="450"
             style={{ border: 0 }}
