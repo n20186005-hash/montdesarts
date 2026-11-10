@@ -1,3 +1,4 @@
+import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
@@ -13,6 +14,8 @@ import Reviews from '@/components/Reviews';
 import MapEmbed from '@/components/MapEmbed';
 import Faq from '@/components/Faq';
 import Footer from '@/components/Footer';
+import NearbyGuides from '@/components/NearbyGuides';
+import Sources from '@/components/Sources';
 import { routing, absoluteUrl } from '@/i18n/routing';
 import { buildTouristAttraction, buildFaqPage } from '@/lib/site';
 
@@ -22,6 +25,7 @@ export function generateStaticParams() {
 
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  if (!routing.locales.includes(locale as typeof routing.locales[number])) notFound();
   setRequestLocale(locale);
 
   const messages = (await import(`@/messages/${locale}.json`)).default;
@@ -30,7 +34,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@graph': [buildTouristAttraction(locale, url), buildFaqPage(faqItems)],
+    '@graph': [buildTouristAttraction(locale, url, messages.whatIs.text), buildFaqPage(faqItems)],
   };
 
   return (
@@ -44,15 +48,17 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <Hero />
         <WhatIs />
         <Intro />
-        <Tickets />
         <GardensViewpoint />
-        <InfoSection />
         <Essentials />
+        <Tickets />
+        <InfoSection />
         <Gallery />
         <Accommodation />
+        <NearbyGuides locale={locale} />
         <Reviews />
-        <MapEmbed />
         <Faq />
+        <MapEmbed />
+        <Sources locale={locale} />
       </main>
       <Footer />
     </>

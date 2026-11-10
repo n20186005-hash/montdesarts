@@ -1,0 +1,482 @@
+{
+  "en": {
+    "heading": "Choose a museum near Mont des Arts",
+    "intro": "Four different reasons to leave the garden for a cultural visit. Choose the collection or programme first, then check that venue's entrance and calendar.",
+    "read": "Plan this visit",
+    "sources": "Official sources",
+    "checked": "Information checked 10 November 2026 · Mont des Arts Travel Guide editorial team",
+    "related": "More visits in the district",
+    "back": "Back to Mont des Arts",
+    "notice": "Schedules below are a dated snapshot. Check the official calendar for holiday closures, tickets and your chosen event before travelling.",
+    "guides": {
+      "kbr-museum": {
+        "title": "KBR Museum: manuscripts and music at Mont des Arts",
+        "description": "Choose between the KBR Museum and library reading rooms: Burgundian manuscripts, music, the visitor entrance and separate opening schedules.",
+        "intro": "The KBR Museum turns a library collection into a museum visit. Choose it for illuminated manuscripts, the Library of the Dukes of Burgundy and the musical world of the fifteenth century, rather than a conventional gallery of paintings.",
+        "sections": [
+          {
+            "title": "What makes this visit different",
+            "body": "Visit Brussels describes an encounter with manuscript miniatures and polyphonic music, with interactive experiences that connect the books to their historical setting. The attraction is the material and sound of this collection; it offers a different focus from Magritte's surrealist works or Bozar's changing programme.",
+            "source": 0
+          },
+          {
+            "title": "Museum or reading room?",
+            "body": "The museum and the national library serve different purposes. KBR is a closed-stack library: readers request books for consultation and cannot borrow them to take home. A museum ticket is therefore not a promise of open browsing through the library's research collections. Use the museum visitor information for a cultural visit and the reading-room instructions for research.",
+            "source": 1
+          },
+          {
+            "title": "Entrance and opening snapshot",
+            "body": "KBR lists its public entrance at Mont des Arts 28, 1000 Brussels. Its museum schedule is Tuesday–Sunday 10:00–17:00; the library has a separate Monday–Saturday 09:00–17:00 schedule. Consult the linked closing-day list and current museum ticket information before choosing a date.",
+            "source": 1
+          },
+          {
+            "title": "Pair it with the garden",
+            "body": "KBR belongs to the Mont des Arts complex, so the garden provides the district context for the museum. Plan the indoor visit around its opening day, then use the garden as a separate outdoor stop. For reduced-mobility access, consult KBR's own arrival information; the garden's stairways do not establish a step-free route into the museum.",
+            "source": 2
+          }
+        ]
+      },
+      "bozar": {
+        "title": "Bozar: exhibitions, concerts and the right entrance",
+        "description": "Plan a Bozar visit near Mont des Arts: distinguish exhibitions from performances and the ticket office, with official addresses and opening information.",
+        "intro": "Bozar is the Centre for Fine Arts, a place to choose a particular exhibition, concert or event. Visit Brussels identifies Victor Horta as the architect of the venue; its programme is a different reason to visit the district from a museum's permanent collection.",
+        "sections": [
+          {
+            "title": "Start with the programme",
+            "body": "An exhibition and an evening performance are different visits. Choose the event or exhibition that interests you on Bozar's own website, then check its date, venue and ticket. The building's cultural programme includes more than visual art, so a general opening-hours label cannot describe everything taking place inside.",
+            "source": 0
+          },
+          {
+            "title": "Exhibition hours are not event times",
+            "body": "The official exhibition schedule is Tuesday–Sunday 10:00–18:00, with the last entry slot at 17:00 and Monday closure. Concerts, films, debates and performances follow their individual event pages. Holiday exceptions are also listed by Bozar; do not infer an evening concert time from the exhibition schedule.",
+            "source": 1
+          },
+          {
+            "title": "Venue versus ticket office",
+            "body": "Bozar gives Rue Ravensteinstraat 23, 1000 Brussels for the venue and exhibitions. Its ticket office is separately listed at Rue Ravensteinstraat 18 and has its own hours. Use the entrance named on your event page or ticket rather than assuming the ticket-office address is the exhibition door.",
+            "source": 1
+          },
+          {
+            "title": "Combine a visit with Mont des Arts",
+            "body": "Bozar is one of the cultural institutions on and around Mont des Arts in the tourism authority's Museum Mile guide. Let the chosen programme anchor your day, with the garden and viewpoint as separate stops. Consult Bozar's visitor information for accessibility and arrival details specific to the venue.",
+            "source": 2
+          }
+        ]
+      },
+      "magritte-museum": {
+        "title": "Magritte Museum: collection, tickets and entrance",
+        "description": "A practical Magritte Museum visit from Mont des Arts: surrealist works, weekday and weekend hours, and different entry routes with or without online tickets.",
+        "intro": "Choose the Musée Magritte Museum for the world of René Magritte. The Royal Quarter museum focuses on the artist's work and archives, giving a distinct purpose to a visit beyond the gardens and the wider Royal Museums of Fine Arts.",
+        "sections": [
+          {
+            "title": "Beyond a single famous painting",
+            "body": "Visit Brussels describes a collection that includes paintings, gouaches, drawings, sculpture, painted objects, posters, photographs and film. This is an artist-focused visit rather than a general survey of all the Royal Museums' collections. Consult the museum's current collection information for what is on display.",
+            "source": 0
+          },
+          {
+            "title": "Choose your entrance before arriving",
+            "body": "The operator reserves the Place Royale 2 entrance for visitors who booked online. Visitors without a ticket are directed to the main ticket desk at rue de la Régence 3. These two addresses describe different arrival situations for the visit, so check your ticket and follow the operator's instructions.",
+            "source": 1
+          },
+          {
+            "title": "Weekdays and weekends differ",
+            "body": "The published regular schedule is Tuesday–Friday 10:00–17:00 and weekends 11:00–18:00. Monday and listed holiday closures apply; the operator specifically lists 11 November as a closure. Check the current calendar and admission page, especially for a holiday visit, rather than relying on a generic district museum timetable.",
+            "source": 1
+          },
+          {
+            "title": "Keep the museum choices separate",
+            "body": "The Magritte Museum is part of the Royal Museums of Fine Arts but is a distinct collection from the Old Masters Museum. The tourism authority places it in the Mont des Arts and Royal Quarter cluster. Choose your museum and ticket product deliberately; a walk through the garden does not include museum admission.",
+            "source": 2
+          }
+        ]
+      },
+      "musical-instruments-museum": {
+        "title": "MIM: instruments, Old England and planning your visit",
+        "description": "Visit the Musical Instruments Museum near Mont des Arts: instrument collections, the Old England building, opening hours, final entry and accessibility information.",
+        "intro": "The Musical Instruments Museum, usually called MIM, is the district's music-collection choice. Its instruments and Old England building make it a different visit from Bozar's live programme or KBR's manuscript heritage.",
+        "sections": [
+          {
+            "title": "Collection and building",
+            "body": "MIM describes instrument displays across four floors in the Art Nouveau Old England building. Choose it if your interest is musical instruments and their presentation rather than an evening performance. The official building page provides architectural context for the exterior as well as the museum visit.",
+            "source": 0
+          },
+          {
+            "title": "Opening and final entry",
+            "body": "Regular hours are Tuesday–Friday 09:30–17:00 and weekends and public holidays 10:00–17:00. Ticket sales finish at 16:00, last ticketed entry is 16:15 and galleries close at 16:45. Monday and named holiday closures apply, including 11 November. Check the official list before travelling.",
+            "source": 1
+          },
+          {
+            "title": "Address and access",
+            "body": "The museum is at Montagne de la Cour 2 / Hofberg 2, 1000 Brussels. Its accessibility and location page lists transport and reduced-mobility arrangements. Use those venue-specific instructions when planning your arrival; proximity to Mont des Arts does not mean the surrounding stairs suit every visitor.",
+            "source": 2
+          },
+          {
+            "title": "Do not plan around the restaurant",
+            "body": "At the check date, MIM's opening-hours page says the restaurant is closed for renovation. Plan this as a museum visit and verify any later reopening directly with MIM. The tourism authority includes the museum in the Mont des Arts cultural cluster, so the garden can be another stop without assuming restaurant or rooftop access.",
+            "source": 1
+          }
+        ]
+      }
+    }
+  },
+  "fr": {
+    "heading": "Choisir un musée près du Mont des Arts",
+    "intro": "Quatre visites culturelles aux objectifs différents. Choisissez une collection ou un programme, puis vérifiez l'entrée et le calendrier du lieu.",
+    "read": "Préparer cette visite",
+    "sources": "Sources officielles",
+    "checked": "Informations vérifiées le 10 novembre 2026 · Rédaction du Guide de visite du Mont des Arts",
+    "related": "D'autres visites dans le quartier",
+    "back": "Retour au Mont des Arts",
+    "notice": "Ces horaires constituent un relevé daté. Consultez le calendrier officiel pour les fermetures, billets et événements avant de partir.",
+    "guides": {
+      "kbr-museum": {
+        "title": "KBR museum : manuscrits et musique au Mont des Arts",
+        "description": "Distinguer le KBR museum des salles de lecture : manuscrits bourguignons, musique, entrée et horaires propres au musée.",
+        "intro": "Le KBR museum transforme une collection de bibliothèque en visite de musée. On le choisit pour les manuscrits enluminés, la bibliothèque des ducs de Bourgogne et l'univers musical du XVe siècle, plutôt que pour une galerie de peintures classique.",
+        "sections": [
+          {
+            "title": "Une visite centrée sur le livre et le son",
+            "body": "Visit Brussels décrit les miniatures des manuscrits, la musique polyphonique et des expériences interactives qui replacent les livres dans leur contexte. Cette approche diffère des œuvres surréalistes de Magritte et de la programmation changeante de Bozar : c'est la collection manuscrite et son univers sonore qui guident la visite.",
+            "source": 0
+          },
+          {
+            "title": "Musée et salle de lecture : deux usages",
+            "body": "KBR est une bibliothèque à magasins fermés : les lecteurs commandent les ouvrages pour les consulter sur place et ne peuvent pas les emprunter à domicile. Une visite de musée ne donne donc pas accès à une bibliothèque en libre parcours. Pour une recherche, suivez les instructions des salles de lecture ; pour une sortie culturelle, celles du musée.",
+            "source": 1
+          },
+          {
+            "title": "Entrée et horaires relevés",
+            "body": "L'entrée publique indiquée est Mont des Arts 28, 1000 Bruxelles. Le musée ouvre normalement du mardi au dimanche de 10 h à 17 h ; la bibliothèque suit un horaire distinct, du lundi au samedi de 9 h à 17 h. Consultez la liste des jours de fermeture et les billets du musée avant de fixer la date.",
+            "source": 1
+          },
+          {
+            "title": "Associer le musée au jardin",
+            "body": "KBR fait partie du complexe du Mont des Arts. Le jardin permet de comprendre le quartier autour de la visite intérieure. Organisez d'abord le musée selon son calendrier, puis prévoyez le jardin séparément. Pour l'accès à mobilité réduite, utilisez les indications propres à KBR : les escaliers du quartier ne prouvent pas l'existence d'un parcours sans marches.",
+            "source": 2
+          }
+        ]
+      },
+      "bozar": {
+        "title": "Bozar : expositions, concerts et accès",
+        "description": "Préparer une visite à Bozar : distinguer expositions, spectacles et billetterie, avec les adresses et horaires officiels.",
+        "intro": "Bozar, le Palais des Beaux-Arts, se visite pour une exposition, un concert ou un événement choisi. Visit Brussels attribue son architecture à Victor Horta. Sa programmation offre une raison différente de venir dans le quartier qu'une collection permanente.",
+        "sections": [
+          {
+            "title": "Choisir d'abord le programme",
+            "body": "Une exposition et un spectacle du soir constituent deux visites différentes. Repérez sur le site de Bozar ce qui vous intéresse, puis vérifiez la date, la salle et le billet. Le programme dépasse les arts visuels : une seule plage horaire ne peut pas décrire toutes les activités du bâtiment.",
+            "source": 0
+          },
+          {
+            "title": "Expositions et événements ont leurs horaires",
+            "body": "Les expositions sont annoncées du mardi au dimanche de 10 h à 18 h, avec un dernier créneau d'entrée à 17 h et fermeture le lundi. Concerts, films, débats et spectacles suivent leurs pages respectives. Bozar publie aussi des exceptions pour les fêtes : l'horaire d'une exposition ne fixe pas celui d'un concert.",
+            "source": 1
+          },
+          {
+            "title": "Lieu de visite ou billetterie ?",
+            "body": "Le lieu et les expositions sont indiqués Rue Ravensteinstraat 23, 1000 Bruxelles. La billetterie se situe au numéro 18 et suit son propre horaire. Utilisez l'entrée mentionnée sur votre billet ou la page de l'événement, sans confondre la billetterie avec la porte des expositions.",
+            "source": 1
+          },
+          {
+            "title": "Bozar dans le quartier culturel",
+            "body": "Le parcours Museum Mile de Visit Brussels place Bozar parmi les institutions du Mont des Arts et de ses abords. Faites de l'exposition ou du concert choisi le point fixe de votre journée, puis ajoutez le jardin et le belvédère comme étapes distinctes. Les informations de visite de Bozar détaillent l'accès au lieu.",
+            "source": 2
+          }
+        ]
+      },
+      "magritte-museum": {
+        "title": "Musée Magritte : collection, billets et entrée",
+        "description": "Préparer le Musée Magritte depuis le Mont des Arts : collection surréaliste, horaires et entrée selon l'achat ou non d'un billet en ligne.",
+        "intro": "Le Musée Magritte permet d'entrer dans l'univers de René Magritte. Consacré aux œuvres et archives de l'artiste dans le Quartier royal, il répond à un objectif distinct de la promenade au jardin et de la visite générale des Musées royaux.",
+        "sections": [
+          {
+            "title": "Au-delà d'un tableau célèbre",
+            "body": "Visit Brussels décrit des peintures, gouaches, dessins, sculptures, objets peints, affiches, photographies et films. Il s'agit d'une visite centrée sur un artiste, et non d'un panorama de toutes les collections des Musées royaux. Consultez les informations actuelles du musée pour connaître les œuvres présentées.",
+            "source": 0
+          },
+          {
+            "title": "Choisir son entrée avant de partir",
+            "body": "L'entrée Place Royale 2 est réservée aux visiteurs qui ont acheté leur billet en ligne. Sans billet, l'opérateur demande de rejoindre la billetterie principale, rue de la Régence 3. Ces adresses correspondent à deux situations d'arrivée différentes : vérifiez votre réservation et suivez les instructions du musée.",
+            "source": 1
+          },
+          {
+            "title": "Des horaires différents le week-end",
+            "body": "L'horaire régulier publié est du mardi au vendredi de 10 h à 17 h et le week-end de 11 h à 18 h. Le lundi et certains jours fériés sont fermés ; le 11 novembre figure explicitement dans la liste. Vérifiez le calendrier et l'admission, surtout pour une visite un jour férié.",
+            "source": 1
+          },
+          {
+            "title": "Distinguer les collections du quartier",
+            "body": "Le Musée Magritte appartient aux Musées royaux des Beaux-Arts, mais sa collection se distingue de celle du Musée Old Masters. Visit Brussels le situe dans l'ensemble Mont des Arts–Quartier royal. Choisissez le musée et le produit de billetterie souhaités : une promenade au jardin n'inclut pas l'admission au musée.",
+            "source": 2
+          }
+        ]
+      },
+      "musical-instruments-museum": {
+        "title": "MIM : instruments, Old England et visite pratique",
+        "description": "Préparer le Musée des instruments de musique : collections, bâtiment Old England, horaires, dernière entrée et accessibilité.",
+        "intro": "Le Musée des instruments de musique, ou MIM, est le choix consacré aux collections musicales du quartier. Ses instruments et le bâtiment Old England proposent une expérience différente des concerts de Bozar et des manuscrits de KBR.",
+        "sections": [
+          {
+            "title": "Une collection dans un bâtiment Art nouveau",
+            "body": "Le MIM décrit des instruments présentés sur quatre étages dans le bâtiment Art nouveau Old England. Choisissez-le pour découvrir une collection instrumentale plutôt que pour assister à un spectacle. Sa page consacrée au bâtiment permet également de replacer la façade dans son contexte architectural.",
+            "source": 0
+          },
+          {
+            "title": "Horaires et dernière entrée",
+            "body": "L'horaire régulier est du mardi au vendredi de 9 h 30 à 17 h, les week-ends et jours fériés de 10 h à 17 h. La vente des billets cesse à 16 h, la dernière entrée avec billet est à 16 h 15 et les salles ferment à 16 h 45. Le lundi et certains jours fériés, dont le 11 novembre, sont fermés.",
+            "source": 1
+          },
+          {
+            "title": "Adresse et accès",
+            "body": "Le musée se situe Montagne de la Cour 2 / Hofberg 2, 1000 Bruxelles. Sa page d'accès précise les transports et les dispositions pour les personnes à mobilité réduite. Utilisez ces indications propres au MIM : la proximité du jardin ne garantit pas que les escaliers alentour conviennent à chacun.",
+            "source": 2
+          },
+          {
+            "title": "Ne pas compter sur le restaurant",
+            "body": "À la date de vérification, la page officielle annonce le restaurant fermé pour rénovation. Prévoyez une visite du musée et vérifiez toute réouverture auprès du MIM. Visit Brussels le place dans le groupe culturel du Mont des Arts ; vous pouvez ajouter le jardin sans présumer de l'accès au restaurant ou au toit.",
+            "source": 1
+          }
+        ]
+      }
+    }
+  },
+  "nl": {
+    "heading": "Kies een museum bij de Kunstberg",
+    "intro": "Vier verschillende culturele bezoeken. Kies eerst een collectie of programma en controleer daarna de ingang en kalender van die instelling.",
+    "read": "Plan dit bezoek",
+    "sources": "Officiële bronnen",
+    "checked": "Informatie gecontroleerd op 10 november 2026 · Redactie Mont des Arts Bezoekgids",
+    "related": "Meer bezoeken in de wijk",
+    "back": "Terug naar de Kunstberg",
+    "notice": "Deze uren zijn een gedateerde momentopname. Controleer de officiële kalender voor feestdagen, tickets en het gekozen evenement voordat je vertrekt.",
+    "guides": {
+      "kbr-museum": {
+        "title": "KBR museum: handschriften en muziek aan de Kunstberg",
+        "description": "Kies tussen het KBR museum en de leeszalen: Bourgondische handschriften, muziek, bezoekersingang en afzonderlijke openingsuren.",
+        "intro": "Het KBR museum maakt van een bibliotheekcollectie een museumbezoek. Kies het voor verluchte handschriften, de bibliotheek van de hertogen van Bourgondië en de muziekwereld van de vijftiende eeuw, in plaats van een klassieke schilderijengalerij.",
+        "sections": [
+          {
+            "title": "Boeken en hun klankwereld",
+            "body": "Visit Brussels beschrijft miniaturen, polyfone muziek en interactieve ervaringen die de handschriften in hun historische omgeving plaatsen. Dat verschilt van Magrittes surrealistische werken en het wisselende programma van Bozar: het materiaal en de klankwereld van deze collectie staan centraal.",
+            "source": 0
+          },
+          {
+            "title": "Museum en leeszaal hebben andere functies",
+            "body": "KBR is een geslotenmagazijnbibliotheek: lezers bestellen boeken voor raadpleging en kunnen ze niet mee naar huis nemen. Een museumbezoek betekent dus niet dat je vrij door de onderzoekscollectie kunt bladeren. Volg de leeszaalinstructies voor onderzoek en de museuminformatie voor een cultureel bezoek.",
+            "source": 1
+          },
+          {
+            "title": "Ingang en genoteerde openingsuren",
+            "body": "De publieksingang is Mont des Arts 28, 1000 Brussel. Het museum vermeldt dinsdag–zondag 10.00–17.00 uur; de bibliotheek heeft afzonderlijke uren van maandag tot zaterdag 09.00–17.00 uur. Bekijk de lijst met sluitingsdagen en de actuele museumtickets voordat je een datum kiest.",
+            "source": 1
+          },
+          {
+            "title": "Combineren met de tuin",
+            "body": "KBR behoort tot het Kunstbergcomplex. De tuin geeft de omgeving van het museum context. Plan het binnenbezoek volgens de museumkalender en behandel de tuin als een aparte stop. Raadpleeg KBR voor toegankelijk aankomen: de trappen in de wijk bewijzen geen drempelvrije route naar het museum.",
+            "source": 2
+          }
+        ]
+      },
+      "bozar": {
+        "title": "Bozar: tentoonstellingen, concerten en de juiste ingang",
+        "description": "Plan Bozar bij de Kunstberg: het verschil tussen tentoonstellingen, voorstellingen en de ticketbalie, met officiële adressen en uren.",
+        "intro": "Bozar, het Paleis voor Schone Kunsten, bezoek je voor een gekozen tentoonstelling, concert of evenement. Visit Brussels noemt Victor Horta als architect. Het programma geeft een andere reden voor een bezoek aan de wijk dan een vaste museumcollectie.",
+        "sections": [
+          {
+            "title": "Begin bij het programma",
+            "body": "Een tentoonstelling en een avondvoorstelling zijn verschillende bezoeken. Kies op de website van Bozar wat je interesseert en controleer datum, zaal en ticket. Het programma omvat meer dan beeldende kunst; één algemeen openingsuur kan niet alle activiteiten in het gebouw beschrijven.",
+            "source": 0
+          },
+          {
+            "title": "Tentoonstellingen en evenementen verschillen",
+            "body": "De gepubliceerde tentoonstellingsuren zijn dinsdag–zondag 10.00–18.00 uur, met het laatste toegangstijdslot om 17.00 uur en sluiting op maandag. Concerten, films, debatten en voorstellingen volgen hun eigen evenementpagina. Bozar vermeldt ook feestdaguitzonderingen; leid een concerttijd niet af uit de tentoonstellingsuren.",
+            "source": 1
+          },
+          {
+            "title": "Bezoekadres of ticketbalie?",
+            "body": "Voor de locatie en tentoonstellingen vermeldt Bozar Rue Ravensteinstraat 23, 1000 Brussel. De ticketbalie staat afzonderlijk op nummer 18 en heeft eigen uren. Gebruik de ingang op je ticket of evenementpagina en verwar de ticketbalie niet met de tentoonstellingsdeur.",
+            "source": 1
+          },
+          {
+            "title": "Een programma als anker voor je dag",
+            "body": "De Museum Mile-gids van Visit Brussels plaatst Bozar tussen de instellingen op en rond de Kunstberg. Laat het gekozen programma je dag bepalen en voeg tuin en uitzichtpunt als afzonderlijke stops toe. Bozars bezoekersinformatie helpt met aankomst en toegankelijkheid van deze locatie.",
+            "source": 2
+          }
+        ]
+      },
+      "magritte-museum": {
+        "title": "Magritte Museum: collectie, tickets en ingang",
+        "description": "Bezoek het Magritte Museum vanaf de Kunstberg: surrealistische werken, week- en weekenduren en de ingang met of zonder online ticket.",
+        "intro": "Kies het Musée Magritte Museum voor de wereld van René Magritte. Het museum in de Koninklijke Wijk richt zich op zijn werk en archief en heeft daarmee een eigen doel naast de tuin en de bredere Koninklijke Musea.",
+        "sections": [
+          {
+            "title": "Meer dan één bekend schilderij",
+            "body": "Visit Brussels beschrijft schilderijen, gouaches, tekeningen, beelden, beschilderde objecten, affiches, foto's en films. Het is een bezoek rond één kunstenaar, geen overzicht van alle collecties van de Koninklijke Musea. Bekijk de actuele collectie-informatie voor wat er wordt getoond.",
+            "source": 0
+          },
+          {
+            "title": "Kies je ingang vooraf",
+            "body": "De ingang aan Place Royale 2 is volgens de beheerder gereserveerd voor bezoekers met een online geboekt ticket. Zonder ticket word je naar de hoofdticketbalie aan rue de la Régence 3 verwezen. Die adressen horen bij verschillende aankomstsituaties: controleer je boeking en volg de museuminstructies.",
+            "source": 1
+          },
+          {
+            "title": "Andere uren in het weekend",
+            "body": "De gewone uren zijn dinsdag–vrijdag 10.00–17.00 uur en in het weekend 11.00–18.00 uur. Maandag en genoemde feestdagen zijn sluitingsdagen; 11 november staat uitdrukkelijk op de lijst. Controleer kalender en toegang, vooral op feestdagen, in plaats van een algemeen museumschema voor de wijk te gebruiken.",
+            "source": 1
+          },
+          {
+            "title": "Houd de museumkeuzes uit elkaar",
+            "body": "Het Magritte Museum is onderdeel van de Koninklijke Musea voor Schone Kunsten, maar verschilt van de collectie van het Old Masters Museum. Visit Brussels situeert het in de Kunstberg en Koninklijke Wijk. Kies bewust je museum en ticketproduct; een wandeling door de tuin omvat geen museumtoegang.",
+            "source": 2
+          }
+        ]
+      },
+      "musical-instruments-museum": {
+        "title": "MIM: instrumenten, Old England en je bezoek",
+        "description": "Plan het Muziekinstrumentenmuseum bij de Kunstberg: instrumentencollectie, Old England, openingsuren, laatste toegang en toegankelijkheid.",
+        "intro": "Het Muziekinstrumentenmuseum, meestal MIM genoemd, is de keuze voor een muziekcollectie in deze wijk. De instrumenten en het gebouw Old England geven een ander bezoek dan Bozars podiumprogramma of de handschriften van KBR.",
+        "sections": [
+          {
+            "title": "Collectie en gebouw",
+            "body": "MIM beschrijft instrumenten op vier verdiepingen in het art-nouveaugebouw Old England. Kies het voor een instrumentencollectie in plaats van een avondvoorstelling. De officiële gebouwpagina geeft ook de architecturale context van de buitenkant en het museumbezoek.",
+            "source": 0
+          },
+          {
+            "title": "Uren en laatste toegang",
+            "body": "De gewone uren zijn dinsdag–vrijdag 09.30–17.00 uur en weekends en feestdagen 10.00–17.00 uur. Ticketverkoop stopt om 16.00 uur, laatste toegang met ticket is om 16.15 uur en de zalen sluiten om 16.45 uur. Maandag en genoemde feestdagen, waaronder 11 november, zijn gesloten. Controleer de officiële lijst.",
+            "source": 1
+          },
+          {
+            "title": "Adres en aankomst",
+            "body": "Het museum ligt aan Montagne de la Cour 2 / Hofberg 2, 1000 Brussel. De pagina over toegankelijkheid en locatie beschrijft vervoer en voorzieningen voor bezoekers met beperkte mobiliteit. Gebruik die eigen instructies: de nabijheid van de Kunstberg betekent niet dat de omliggende trappen voor iedereen geschikt zijn.",
+            "source": 2
+          },
+          {
+            "title": "Reken niet op het restaurant",
+            "body": "Op de controledatum meldt de officiële urenpagina dat het restaurant wegens renovatie gesloten is. Plan een museumbezoek en controleer een latere heropening bij MIM. Visit Brussels plaatst het museum in de culturele Kunstbergcluster; de tuin kan een aparte stop zijn zonder restaurant- of daktoegang te veronderstellen.",
+            "source": 1
+          }
+        ]
+      }
+    }
+  },
+  "zh": {
+    "heading": "选择艺术山附近的博物馆",
+    "intro": "四个场馆各有不同的参观主题。先选收藏或节目，再核对该场馆的入口与日历。",
+    "read": "规划这项参观",
+    "sources": "官方资料来源",
+    "checked": "资料核对：2026 年 11 月 10 日 · 艺术山旅游指南编辑组",
+    "related": "本区其他参观选择",
+    "back": "返回艺术山指南",
+    "notice": "以下开放时间是核对当日的资料。出发前请到官方日历确认假日休馆、门票及所选活动。",
+    "guides": {
+      "kbr-museum": {
+        "title": "KBR 博物馆：艺术山的手稿与音乐",
+        "description": "区分 KBR 博物馆与图书馆阅览室，了解勃艮第手稿、音乐主题、公众入口和各自的开放时间。",
+        "intro": "KBR 博物馆将图书馆收藏变成可参观的展览。适合想了解彩饰手稿、勃艮第公爵图书馆与十五世纪音乐的人；它与传统绘画展厅的参观重点不同。",
+        "sections": [
+          {
+            "title": "以书页与声音为主角",
+            "body": "Visit Brussels 介绍了手稿细密画、复调音乐与互动体验，把书籍放回当时的历史环境。这里关注收藏的实物与声音世界，与马格利特的超现实主义作品、BOZAR 随展期变化的节目各有区别。",
+            "source": 0
+          },
+          {
+            "title": "博物馆与阅览室用途不同",
+            "body": "KBR 是闭架式图书馆：读者申请书籍后在馆内查阅，不能把书借回家。博物馆参观并不意味着可以自由翻阅研究馆藏。文化参观请看博物馆说明；需要研究资料时，应另看阅览室的申请与使用规则。",
+            "source": 1
+          },
+          {
+            "title": "入口与开放时间快照",
+            "body": "KBR 公布的公众入口是 Mont des Arts 28，1000 Brussels。博物馆常规开放时间为周二至周日 10:00–17:00；图书馆另为周一至周六 09:00–17:00。确定日期前，请再核对休馆日清单及博物馆的当前门票信息。",
+            "source": 1
+          },
+          {
+            "title": "如何与花园安排在一起",
+            "body": "KBR 属于艺术山建筑群，花园可以帮助理解博物馆周边的城区。先按博物馆日历确定室内参观，再把花园作为独立户外停留。行动不便者请查看 KBR 自己的抵达说明；艺术山周边有楼梯，不能据此推定全程无障碍。",
+            "source": 2
+          }
+        ]
+      },
+      "bozar": {
+        "title": "BOZAR 美术宫：展览、音乐会与入口",
+        "description": "规划艺术山旁 BOZAR 的参观，区分展览、演出和售票处，并核对官方地址与开放时间。",
+        "intro": "BOZAR 是布鲁塞尔美术宫，适合为某项展览、音乐会或活动而来。Visit Brussels 介绍其建筑由 Victor Horta 设计。选择具体节目，与参观固定博物馆收藏是两种不同安排。",
+        "sections": [
+          {
+            "title": "先选节目，再排时间",
+            "body": "看展与参加晚间演出是不同的参观。先到 BOZAR 官网找到感兴趣的项目，再核对日期、场地与门票。美术宫的节目不限视觉艺术，不能用一个统一的开放时间概括楼内所有活动。",
+            "source": 0
+          },
+          {
+            "title": "展览时间不等于演出时间",
+            "body": "官方展览常规时间为周二至周日 10:00–18:00，最后入场时段为 17:00，周一关闭。音乐会、电影、讲座与表演应查看各自活动页；官网另列假日例外。不能根据展览时间推测晚间音乐会何时开始。",
+            "source": 1
+          },
+          {
+            "title": "场馆与售票处分别在哪里",
+            "body": "BOZAR 给出的场馆及展览地址为 Rue Ravensteinstraat 23，1000 Brussels；售票处另在同街 18 号，也有自己的营业时间。请按门票或活动页指定的入口抵达，不要把售票处地址直接当作展览入口。",
+            "source": 1
+          },
+          {
+            "title": "以节目为一天的固定安排",
+            "body": "Visit Brussels 的 Museum Mile 指南把 BOZAR 列为艺术山及周边文化机构之一。可先围绕已选展览或演出安排当天，再把花园和观景台作为独立停留。需要无障碍或到达信息时，请查看 BOZAR 针对场馆的参观说明。",
+            "source": 2
+          }
+        ]
+      },
+      "magritte-museum": {
+        "title": "马格利特博物馆：收藏、门票与入口",
+        "description": "从艺术山规划马格利特博物馆参观：超现实主义收藏、平日与周末开放时间，以及已网购和未购票的不同入口。",
+        "intro": "Musée Magritte Museum 适合想进入 René Magritte 艺术世界的访客。这座皇家区博物馆聚焦艺术家的作品和档案，与花园散步及皇家美术博物馆群的其他收藏有不同目的。",
+        "sections": [
+          {
+            "title": "不只是一幅著名绘画",
+            "body": "Visit Brussels 介绍的收藏包括油画、水粉画、素描、雕塑、彩绘物件、海报、照片与电影。这是围绕单一艺术家的参观，而非皇家美术博物馆全部馆藏的总览。实际展出内容请看博物馆当前的收藏说明。",
+            "source": 0
+          },
+          {
+            "title": "出发前确认适用入口",
+            "body": "运营方说明，Place Royale 2 的入口供已经在线预订门票的访客使用。尚未买票者应到 rue de la Régence 3 的主入口售票处。这两个地址对应不同的抵达情况，请先核对预订，再按官方指示前往。",
+            "source": 1
+          },
+          {
+            "title": "平日与周末开放时间不同",
+            "body": "公布的常规时间为周二至周五 10:00–17:00，周末 11:00–18:00；周一及指定假日关闭，其中明确包括 11 月 11 日。尤其在假日出行时，应核对当前日历与入场说明，不要套用全区统一的博物馆时间。",
+            "source": 1
+          },
+          {
+            "title": "区分皇家博物馆群内的选择",
+            "body": "马格利特博物馆属于比利时皇家美术博物馆，但与 Old Masters Museum 的收藏不同。Visit Brussels 将它列在艺术山与皇家区的博物馆群中。请明确选择想看的博物馆与门票产品；花园散步并不包含博物馆入场。",
+            "source": 2
+          }
+        ]
+      },
+      "musical-instruments-museum": {
+        "title": "乐器博物馆 MIM：乐器、Old England 与参观安排",
+        "description": "规划艺术山附近的乐器博物馆 MIM：乐器收藏、Old England 建筑、开放时间、最后入场与无障碍信息。",
+        "intro": "乐器博物馆通常简称 MIM，是本区以乐器收藏为主题的参观选择。乐器与 Old England 建筑带来的体验，与 BOZAR 的现场节目和 KBR 的手稿文化各不相同。",
+        "sections": [
+          {
+            "title": "乐器收藏与新艺术建筑",
+            "body": "MIM 介绍其乐器展陈分布在 Old England 新艺术风格建筑的四个楼层。它适合想认识乐器收藏的人，与参加一场晚间演出不同。官方建筑介绍也提供了理解外观和馆舍的建筑背景。",
+            "source": 0
+          },
+          {
+            "title": "开放与最后入场",
+            "body": "常规时间为周二至周五 09:30–17:00，周末与公众假日 10:00–17:00。售票于 16:00 结束，持票者最后入场为 16:15，展厅 16:45 关闭。周一及指定假日休馆，其中包括 11 月 11 日；出发前请再看官方清单。",
+            "source": 1
+          },
+          {
+            "title": "地址与抵达方式",
+            "body": "博物馆地址为 Montagne de la Cour 2 / Hofberg 2，1000 Brussels。官网的无障碍及位置页列出交通与行动不便者安排。请采用该馆自己的抵达说明；靠近艺术山并不代表周边楼梯适合每位访客。",
+            "source": 2
+          },
+          {
+            "title": "不要把餐厅作为行程前提",
+            "body": "核对当日，MIM 官方开放时间页仍说明餐厅因翻修关闭。请以博物馆参观为主，之后是否重新营业应直接向 MIM 核实。Visit Brussels 把该馆纳入艺术山文化群，花园可另作停留，但不能据此推定餐厅或屋顶开放。",
+            "source": 1
+          }
+        ]
+      }
+    }
+  }
+}

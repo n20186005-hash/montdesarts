@@ -10,39 +10,35 @@ export const ATTRACTION = {
   addressLocality: 'Bruxelles',
   addressRegion: 'Brussels-Capital Region',
   addressCountry: 'BE',
-  latitude: 50.8436,
-  longitude: 4.3563,
-  plusCode: 'R9V4+9X Brussels',
+  latitude: 50.8434789,
+  longitude: 4.3574205,
   ratingValue: 4.6,
-  ratingCount: 17894,
-  ratingChecked: '2026-10',
+  ratingCount: 18043,
+  ratingChecked: '2026-11-10',
   mapsUrl: 'https://maps.app.goo.gl/cCCbQsPnaB1Vrnqp9',
   image: `${SITE_URL}/gallery/mont-des-arts-brussels-panorama.jpg`,
   sameAs: [
     'https://maps.app.goo.gl/cCCbQsPnaB1Vrnqp9',
-    'https://www.wikidata.org/wiki/Q1492433',
   ],
   officialSources: [
-    { label: 'Visit Brussels', url: 'https://visit.brussels/en' },
-    { label: 'City of Brussels', url: 'https://www.brussels.be/' },
-    { label: 'KBR', url: 'https://www.kbr.be/en' },
-    { label: 'Belgium.be', url: 'https://www.belgium.be/en' },
+    { label: 'Visit Brussels · Mont des Arts Garden', url: 'https://visit.brussels/en/visitors/venue-details.kunstbergtuin.266026' },
+    { label: 'Visit Brussels · Museum Mile', url: 'https://visit.brussels/en/visitors/plan-your-trip/brussels-museum-mile' },
+    { label: 'Brussels Museums · Garden article, July 2026', url: 'https://www.brusselsmuseums.be/en/news-tips/14-museum-gardens-and-parks-where-you-can-stay-cool' },
   ],
 };
 
 type FaqItem = { q: string; a: string };
 
-export function buildTouristAttraction(locale: string, url: string) {
+export function buildTouristAttraction(locale: string, url: string, description: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'TouristAttraction',
     '@id': `${SITE_URL}#mont-des-arts`,
     name: ATTRACTION.name,
     alternateName: ATTRACTION.alternateName,
-    description: ATTRACTION.description,
+    description,
     url,
     image: ATTRACTION.image,
-    isAccessibleForFree: true,
     publicAccess: true,
     inLanguage: locale,
     address: {
@@ -60,29 +56,6 @@ export function buildTouristAttraction(locale: string, url: string) {
     },
     hasMap: ATTRACTION.mapsUrl,
     sameAs: ATTRACTION.sameAs,
-    openingHoursSpecification: [
-      {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: [
-          'Monday',
-          'Tuesday',
-          'Wednesday',
-          'Thursday',
-          'Friday',
-          'Saturday',
-          'Sunday',
-        ],
-        opens: '00:00',
-        closes: '23:59',
-      },
-    ],
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: ATTRACTION.ratingValue,
-      reviewCount: ATTRACTION.ratingCount,
-      bestRating: 5,
-      worstRating: 1,
-    },
   };
 }
 
