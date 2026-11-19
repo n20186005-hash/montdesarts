@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <img
           src="/gallery/mont-des-arts-brussels-panorama.jpg"
-          alt="Formal garden beds and clipped hedges beside a central path, with city buildings in the distance."
+          alt={t('imageAlt')}
           className="w-full h-full object-cover"
           fetchPriority="high"
         />
