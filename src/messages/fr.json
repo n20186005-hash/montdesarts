@@ -13,7 +13,9 @@
     "nearby": "Musées",
     "menu": "Menu"
   },
+  "accessibility": { "toggleTheme": "Changer le thème de couleur", "switchLanguage": "Changer de langue" },
   "hero": {
+    "imageAlt": "Parterres réguliers et haies taillées le long de l'allée centrale, avec les bâtiments de Bruxelles au loin.",
     "title": "Mont des Arts",
     "location": "Bruxelles, Belgique",
     "subtitle": "Les jardins en terrasses, le belvédère et le cœur culturel de Bruxelles",
@@ -166,6 +168,7 @@
     "places": []
   },
   "mapSection": {
+    "iframeTitle": "Carte Google Maps du Mont des Arts",
     "title": "Carte et accès au Mont des Arts",
     "subtitle": "Mont des Arts, 1000 Bruxelles, Belgique · itinéraire depuis votre point de départ",
     "openMaps": "Ouvrir dans Google Maps"
