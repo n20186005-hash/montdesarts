@@ -17,24 +17,10 @@ const photoFiles = [
   'mont-des-arts-square-at-night.jpg',
 ];
 
-const fallbackAlts = [
-  "Formal garden beds and clipped hedges beside a central path, with city buildings in the distance.",
-  "An equestrian statue on a pedestal in a paved plaza beside large buildings.",
-  "A long formal garden seen at sunset, with patterned flowerbeds and buildings along both sides.",
-  "People walk beneath a leafy arch between buildings, with rooftops visible beyond.",
-  "A vaulted covered passage with colorful graffiti along both walls.",
-  "Round fountain basins beside a tree-lined path and trimmed hedges.",
-  "A paved plaza with a low stone monument, trees, and a light-colored building.",
-  "A stone structure on a paved terrace, with rooftops and buildings in the distance.",
-  "Leafy trees above trimmed hedges and flowerbeds, with round fountain basins below.",
-  "An illuminated clock, sculpted figures, and bells on a building facade at night.",
-  "A formal garden path and flowerbeds illuminated at night, with buildings beyond."
-];
-
 export default function Gallery() {
   const t = useTranslations('gallery');
   const messages = useMessages() as { gallery?: { alts?: string[] } };
-  const photos = photoFiles.map((file, index) => ({ src: `/gallery/${file}`, alt: messages.gallery?.alts?.[index] || fallbackAlts[index] }));
+  const photos = photoFiles.map((file, index) => ({ src: `/gallery/${file}`, alt: messages.gallery?.alts?.[index] || t('title') }));
   const [currentIndex, setCurrentIndex] = useState(0);
   const [open, setOpen] = useState(false);
   const dialog = useRef<HTMLDialogElement>(null);
