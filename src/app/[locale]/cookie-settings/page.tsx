@@ -15,9 +15,9 @@ export async function generateMetadata({
 
   return {
     title: messages.cookieSettings.title + ' · Mont des Arts',
-    description: messages.cookieSettings.title + ' · Mont des Arts Travel Guide',
-    openGraph: { title: messages.cookieSettings.title + ' · Mont des Arts', description: messages.cookieSettings.title + ' · Mont des Arts Travel Guide' },
-    twitter: { title: messages.cookieSettings.title + ' · Mont des Arts', description: messages.cookieSettings.title + ' · Mont des Arts Travel Guide' },
+    description: messages.cookieSettings.title + ' · ' + messages.meta.description,
+    openGraph: { title: messages.cookieSettings.title + ' · Mont des Arts', description: messages.cookieSettings.title + ' · ' + messages.meta.description },
+    twitter: { title: messages.cookieSettings.title + ' · Mont des Arts', description: messages.cookieSettings.title + ' · ' + messages.meta.description },
     robots: { index: false, follow: true },
     alternates: {
       canonical: absoluteUrl(locale, '/cookie-settings'),
