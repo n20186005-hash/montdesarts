@@ -28,7 +28,7 @@ export default function MapEmbed() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Mont des Arts"
+            title={t('iframeTitle')}
           />
         </div>
 
