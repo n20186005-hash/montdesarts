@@ -7,6 +7,11 @@ import { routing, absoluteUrl, languageAlternates } from '@/i18n/routing';
 import { nearbyCopy, GUIDE_SLUGS, GUIDE_SOURCES, type GuideSlug } from '@/content/nearby';
 import { buildBreadcrumb } from '@/lib/site';
 
+const outdoorDetails: Partial<Record<GuideSlug, { image: string; mapQuery: string }>> = {
+  'mont-des-arts-garden': { image: '/gallery/mont-des-arts-terraced-gardens.jpg', mapQuery: 'Jardin du Mont des Arts Brussels Belgium' },
+  'mont-des-arts-viewpoint': { image: '/gallery/mont-des-arts-upper-plaza-viewpoint.jpg', mapQuery: 'Mont des Arts viewpoint Brussels Belgium' },
+};
+
 export function generateStaticParams() {
   return routing.locales.flatMap(locale => GUIDE_SLUGS.map(guide => ({ locale, guide })));
 }
@@ -32,9 +37,10 @@ export default async function GuidePage({ params }: { params: Params }) {
   const { slug, copy, article, url } = resolve(locale, guide);
   setRequestLocale(locale);
   const sources = GUIDE_SOURCES[slug];
+  const outdoor = outdoorDetails[slug];
   const jsonLd = { '@context': 'https://schema.org', '@graph': [
     { '@type': 'Article', headline: article.title, description: article.description, inLanguage: locale, url,
-      dateModified: '2026-11-10', author: { '@type': 'Organization', name: 'Mont des Arts Travel Guide', url: absoluteUrl(locale) },
+      dateModified: outdoor ? '2026-11-19' : '2026-11-10', author: { '@type': 'Organization', name: 'Mont des Arts Travel Guide', url: absoluteUrl(locale) },
       citation: sources.map(source => source.url) },
     buildBreadcrumb(locale, article.title, `/${slug}`),
   ] };
@@ -45,7 +51,11 @@ export default async function GuidePage({ params }: { params: Params }) {
       <article className="max-w-3xl mx-auto">
         <a href={`/${locale}`} className="text-sm underline" style={{ color: 'var(--accent)' }}>← {copy.back}</a>
         <h1 className="font-display text-3xl sm:text-5xl font-bold leading-tight mt-8 mb-5">{article.title}</h1>
-        <p className="text-sm mb-7" style={{ color: 'var(--text-muted)' }}>{copy.checked}</p>
+        <p className="text-sm mb-7" style={{ color: 'var(--text-muted)' }}>{outdoor ? 'Sources checked · 19 November 2026' : copy.checked}</p>
+        {outdoor && <figure className="mb-8">
+          <img src={outdoor.image} alt={article.title} className="w-full rounded-xl object-cover max-h-[440px]" />
+        </figure>}
+        {outdoor && <a className="inline-block underline mb-7" style={{ color: 'var(--accent)' }} target="_blank" rel="noopener noreferrer" href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(outdoor.mapQuery)}`}>Google Maps ↗</a>}
         <p className="text-lg leading-relaxed mb-10" style={{ color: 'var(--text-secondary)' }}>{article.intro}</p>
         <div className="space-y-10">{article.sections.map((section, index) => <section key={index}>
           <h2 className="font-display text-2xl font-semibold mb-3">{section.title}</h2>

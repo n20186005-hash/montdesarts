@@ -16,6 +16,8 @@ export const routing = defineRouting({
     '/bozar': '/bozar',
     '/magritte-museum': '/magritte-museum',
     '/musical-instruments-museum': '/musical-instruments-museum',
+    '/mont-des-arts-garden': '/mont-des-arts-garden',
+    '/mont-des-arts-viewpoint': '/mont-des-arts-viewpoint',
   },
 });
 

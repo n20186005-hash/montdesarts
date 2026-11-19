@@ -1,0 +1,98 @@
+{
+  "en": {
+    "mont-des-arts-garden": {
+      "title": "Mont des Arts Garden: layout, history and a practical walk",
+      "description": "Explore the Mont des Arts Garden in Brussels: its terraces, cultural setting, walking approach and useful visitor tips.",
+      "intro": "The Mont des Arts Garden is the landscaped link between Brussels' upper Royal Quarter and the lower historic centre. Come for the formal garden, the surrounding cultural buildings and an outdoor pause between museum visits.",
+      "sections": [
+        {"title":"Where the garden fits in Brussels","body":"Visit Brussels places the garden below Place Royale, connecting the Royal Quarter with the historic centre around Grand-Place. The KBR library and Square convention centre belong to the wider Mont des Arts complex, but each building has its own entrance and purpose.","source":0},
+        {"title":"Historical background and landscape","body":"The garden was first laid out for the 1910 World Exhibition and was adapted within the larger Mont des Arts urban redevelopment in the 1950s. Its geometric terraces and central axis frame the transition between the two levels of the city.","source":0},
+        {"title":"Suggested short walk and photo stops","body":"Start at the upper viewpoint for an overview of the garden's symmetry, then descend toward the planted terraces and look back uphill for a second composition. Continue toward the historic centre if you want a longer walk. In wet weather, take care on steps and paved slopes; use an independently verified step-free route if needed.","source":1},
+        {"title":"Tickets, access and nearby museums","body":"The outdoor garden is a separate visit from ticketed museums. Do not buy a museum ticket merely to see the garden; check venue-specific tickets, current access arrangements and any temporary closures directly before entering an indoor attraction.","source":2}
+      ]
+    },
+    "mont-des-arts-viewpoint": {
+      "title": "Mont des Arts Viewpoint: Brussels panorama and photo guide",
+      "description": "Find the Mont des Arts panorama, learn what it overlooks and plan garden and skyline photographs in central Brussels.",
+      "intro": "The elevated Mont des Arts viewpoint looks along the garden terraces toward lower Brussels. It is a classic outdoor panorama and a useful first stop for understanding the district before visiting its museums.",
+      "sections": [
+        {"title":"What can you see?","body":"From above the garden, the formal planting and straight central axis draw the eye toward the historic city skyline. Visit Brussels identifies Mont des Arts as one of the city's classic viewpoints and places it between the upper and lower parts of the centre.","source":0},
+        {"title":"Choosing a photo position","body":"For the familiar symmetrical photograph, position yourself at the upper end of the garden and include the terraces in the foreground. Move along the public esplanade to change how the rooftops and skyline align; leave passageways and stair access clear.","source":0},
+        {"title":"When to visit and how long to allow","body":"Daylight helps reveal the garden's geometry; later light can give the buildings a softer outline. A brief viewpoint stop can be combined with a slower garden walk. Weather, crowds and seasonal planting change the photograph, so treat timing as an editorial suggestion, not a guaranteed view.","source":1},
+        {"title":"Outdoor viewpoint versus indoor panoramas","body":"Visit Brussels also mentions views from KBR and the Musical Instruments Museum. Those are separate venues and should not be confused with the public outdoor viewpoint; verify opening and any admission requirements with the respective operator.","source":0}
+      ]
+    }
+  },
+  "fr": {
+    "mont-des-arts-garden": {
+      "title":"Jardin du Mont des Arts : histoire, terrasses et promenade",
+      "description":"Découvrir le jardin du Mont des Arts à Bruxelles : composition, histoire, parcours et conseils de visite.",
+      "intro":"Le jardin du Mont des Arts relie le Quartier royal, en haut de la ville, au centre historique en contrebas. Ses terrasses ordonnées offrent une pause en plein air entre les lieux culturels du quartier.",
+      "sections":[
+        {"title":"Un jardin entre deux quartiers","body":"Selon visit.brussels, le jardin se trouve sous la place Royale, entre le Quartier royal et le centre historique proche de la Grand-Place. KBR et Square font partie de l'ensemble du Mont des Arts, mais possèdent leurs propres accès.","source":0},
+        {"title":"Histoire et composition paysagère","body":"Aménagé à l'origine pour l'Exposition universelle de 1910, le jardin a été adapté lors des transformations urbaines des années 1950. Les terrasses géométriques soulignent le passage entre la ville haute et la ville basse.","source":0},
+        {"title":"Petite promenade et photos","body":"Commencez au belvédère supérieur pour voir la symétrie du jardin, puis descendez vers les plantations et retournez-vous pour varier le cadrage. Les marches et pentes pavées demandent de l'attention par temps humide ; vérifiez un itinéraire accessible distinct si nécessaire.","source":1},
+        {"title":"Accès et musées voisins","body":"La promenade dans le jardin est distincte des visites de musées avec billets. Consultez les sites des établissements pour leurs horaires, entrées et éventuelles fermetures avant une visite intérieure.","source":2}
+      ]
+    },
+    "mont-des-arts-viewpoint": {
+      "title":"Belvédère du Mont des Arts : panorama et conseils photo",
+      "description":"Préparer une vue panoramique du Mont des Arts sur les jardins et les toits du centre de Bruxelles.",
+      "intro":"En haut du Mont des Arts, le panorama suit l'axe des terrasses vers le centre de Bruxelles. C'est un arrêt extérieur idéal pour situer le quartier avant d'entrer au musée.",
+      "sections":[
+        {"title":"Ce que montre le panorama","body":"L'axe central du jardin conduit le regard vers les toits de la ville basse. Visit.brussels classe le Mont des Arts parmi les belvédères classiques de Bruxelles.","source":0},
+        {"title":"Composer une photographie","body":"Depuis l'extrémité haute, intégrez les terrasses au premier plan pour souligner la symétrie. Déplacez-vous sur l'esplanade publique pour varier l'alignement des bâtiments, sans obstruer les passages.","source":0},
+        {"title":"Lumière et durée de visite","body":"La lumière du jour met en valeur les formes du jardin ; en fin de journée, les bâtiments peuvent présenter des contrastes plus doux. La météo et la fréquentation font varier le résultat : aucun créneau ne garantit une photo précise.","source":1},
+        {"title":"D'autres points de vue dans le quartier","body":"Visit.brussels évoque aussi des vues depuis KBR et le Musée des instruments de musique. Ce sont des lieux distincts du belvédère extérieur : vérifiez leurs conditions d'accès et leurs horaires auprès des établissements.","source":0}
+      ]
+    }
+  },
+  "nl": {
+    "mont-des-arts-garden": {
+      "title":"Tuin van de Kunstberg: geschiedenis, terrassen en wandeling",
+      "description":"Ontdek de tuin van de Kunstberg in Brussel: aanleg, geschiedenis, wandelroute en praktische bezoektips.",
+      "intro":"De tuin van de Kunstberg verbindt de hoger gelegen Koningswijk met het historische centrum beneden. De terrassen vormen een rustpunt in de openlucht tussen de culturele instellingen.",
+      "sections":[
+        {"title":"Een tuin tussen twee stadsdelen","body":"Volgens visit.brussels ligt de tuin onder het Koningsplein en verbindt hij de Koningswijk met het historische centrum bij de Grote Markt. KBR en Square behoren tot het grotere Kunstbergcomplex, maar hebben hun eigen ingangen.","source":0},
+        {"title":"Geschiedenis en tuinaanleg","body":"De tuin werd oorspronkelijk aangelegd voor de Wereldtentoonstelling van 1910 en in de jaren 1950 aangepast binnen de herinrichting van de Kunstberg. De geometrische terrassen benadrukken het hoogteverschil in de stad.","source":0},
+        {"title":"Korte wandeling en fotopunten","body":"Begin bovenaan voor het overzicht van de symmetrie, wandel langs de terrassen naar beneden en kijk terug voor een ander perspectief. Let bij regen op trappen en hellingen; controleer afzonderlijk een geschikte drempelvrije route als dat nodig is.","source":1},
+        {"title":"Toegang en musea in de buurt","body":"Een bezoek aan de buitentuin staat los van musea met toegangstickets. Controleer voor een binnenbezoek de eigen openingstijden, toegangen en eventuele sluitingen van elk museum.","source":2}
+      ]
+    },
+    "mont-des-arts-viewpoint": {
+      "title":"Uitzichtpunt Kunstberg: panorama en fototips voor Brussel",
+      "description":"Bekijk het panorama over de tuinen van de Kunstberg en plan foto's van de Brusselse binnenstad.",
+      "intro":"Vanaf het hogere uitkijkpunt van de Kunstberg kijk je over de tuinterrassen naar het lager gelegen Brussel. Het is een logische eerste stop om de omgeving te leren kennen.",
+      "sections":[
+        {"title":"Wat zie je vanaf het uitkijkpunt?","body":"De centrale as van de tuin leidt de blik naar de daken van de benedenstad. Visit.brussels noemt de Kunstberg een van de klassieke uitzichtpunten van de stad.","source":0},
+        {"title":"Een foto samenstellen","body":"Neem vanaf de bovenrand van de tuin de terrassen op de voorgrond mee voor een symmetrisch beeld. Verander op de openbare esplanade van standplaats om de gebouwen anders uit te lijnen; houd doorgangen vrij.","source":0},
+        {"title":"Licht en bezoekduur","body":"Bij daglicht zijn de vormen van de tuin goed te zien; later op de dag kan het licht op de gebouwen zachter worden. Het weer, de drukte en de beplanting veranderen het beeld, dus een perfect fotomoment is niet gegarandeerd.","source":1},
+        {"title":"Andere panorama's in de wijk","body":"Visit.brussels noemt ook uitzichten vanaf KBR en het Muziekinstrumentenmuseum. Die gebouwen zijn afzonderlijke bezoeklocaties; controleer toegang, tickets en openingstijden bij de uitbaters.","source":0}
+      ]
+    }
+  },
+  "zh": {
+    "mont-des-arts-garden": {
+      "title":"布鲁塞尔艺术山花园：历史、阶梯庭园与步行路线",
+      "description":"了解艺术山花园的空间布局、1910 年历史背景、拍照角度和步行游览建议。",
+      "intro":"艺术山花园位于布鲁塞尔上城区皇家区与下城区历史中心之间。这里以几何式花园、层叠步道和周围文化建筑为特色，适合在博物馆参观之间安排一段户外散步。",
+      "sections":[
+        {"title":"花园位于哪里","body":"据布鲁塞尔旅游局介绍，花园位于皇家广场下方，连接皇家区与大广场方向的老城。KBR 皇家图书馆和 Square 会展中心属于更广义的艺术山建筑群，各自有独立入口。","source":0},
+        {"title":"历史与景观设计","body":"花园最初为 1910 年世界博览会而布置，并在 20 世纪 50 年代的艺术山城市更新中调整。整齐的阶梯式庭园与中轴线突出了上下城区的高差。","source":0},
+        {"title":"建议步行路线与拍摄位置","body":"先从高处观景位置俯瞰花园的对称布局，再沿露台逐步向下，回头拍摄另一种构图。雨天请留意台阶和坡面；如需无障碍路线，应另外核实实际可通行的入口。","source":1},
+        {"title":"门票与周边场馆","body":"户外花园游览与周边收费博物馆是不同的活动。参观 KBR、Bozar 或其他室内展馆前，请分别查看其官方网站的票务、入口与临时闭馆公告。","source":2}
+      ]
+    },
+    "mont-des-arts-viewpoint": {
+      "title":"艺术山观景台：布鲁塞尔城市全景与拍照指南",
+      "description":"了解艺术山观景位置、俯瞰的庭园与城市天际线，以及不同光线下的拍摄建议。",
+      "intro":"站在艺术山花园上方的观景位置，可以沿庭园中轴线眺望布鲁塞尔下城区。这是一处经典的户外城市景观点，也适合作为探索周边博物馆前的第一站。",
+      "sections":[
+        {"title":"这里可以看见什么","body":"从高处可欣赏规整的花园、层叠露台与下城区屋顶构成的纵深。布鲁塞尔旅游局将艺术山列为市内具有代表性的观景地点。","source":0},
+        {"title":"经典照片怎么拍","body":"从花园上端让露台成为前景，可以呈现中轴线的对称构图。沿公共平台移动少许，屋顶与建筑的重叠关系也会变化。拍摄时请保持通道和楼梯畅通。","source":0},
+        {"title":"什么时间适合游览","body":"日间较容易看清花园的线条，傍晚的侧光可能柔化建筑轮廓。天气、游客数量与季节性植物都会改变画面，因此这里只提供拍摄思路，不保证特定景色。","source":1},
+        {"title":"与室内观景地点的区别","body":"旅游局还提到 KBR 图书馆及乐器博物馆的其他视角。它们与户外观景台不同，进入建筑前应向各运营单位核对开放时间及是否需要门票。","source":0}
+      ]
+    }
+  }
+}
