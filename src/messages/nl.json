@@ -13,7 +13,9 @@
     "nearby": "Musea",
     "menu": "Menu"
   },
+  "accessibility": { "toggleTheme": "Kleurthema wijzigen", "switchLanguage": "Taal wijzigen" },
   "hero": {
+    "imageAlt": "Geometrische bloemperken en gesnoeide hagen langs een middenpad, met stadsgebouwen op de achtergrond.",
     "title": "Mont des Arts",
     "location": "Brussel, België",
     "subtitle": "De terrastuinen, het uitkijkpunt en het culturele hart van Brussel",
@@ -166,6 +168,7 @@
     "places": []
   },
   "mapSection": {
+    "iframeTitle": "Google Maps-kaart van de Kunstberg",
     "title": "Kaart en route naar Mont des Arts",
     "subtitle": "Mont des Arts, 1000 Brussel, België · route vanaf je eigen vertrekpunt",
     "openMaps": "Openen in Google Maps"
