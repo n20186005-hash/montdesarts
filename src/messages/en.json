@@ -13,7 +13,9 @@
     "nearby": "Museums",
     "menu": "Menu"
   },
+  "accessibility": { "toggleTheme": "Toggle color theme", "switchLanguage": "Switch language" },
   "hero": {
+    "imageAlt": "Formal garden beds and clipped hedges beside a central path, with city buildings in the distance.",
     "title": "Mont des Arts",
     "location": "Brussels, Belgium",
     "subtitle": "The panoramic gardens and cultural heart of central Brussels",
@@ -166,6 +168,7 @@
     "places": []
   },
   "mapSection": {
+    "iframeTitle": "Google Maps map of Mont des Arts",
     "title": "Map & How to Get to Mont des Arts",
     "subtitle": "Mont des Arts, 1000 Brussels, Belgium · use the map for your starting point",
     "openMaps": "Open in Google Maps"
