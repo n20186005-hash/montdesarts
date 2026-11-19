@@ -13,7 +13,9 @@
     "nearby": "周边博物馆",
     "menu": "菜单"
   },
+  "accessibility": { "toggleTheme": "切换配色主题", "switchLanguage": "切换语言" },
   "hero": {
+    "imageAlt": "中央步道两侧的规整花坛与修剪树篱，远处可见布鲁塞尔城市建筑。",
     "title": "艺术山",
     "location": "Mont des Arts · 比利时布鲁塞尔",
     "subtitle": "布鲁塞尔市中心的阶梯花园、全景观景台与文化心脏",
@@ -166,6 +168,7 @@
     "places": []
   },
   "mapSection": {
+    "iframeTitle": "艺术山 Google 地图",
     "title": "地图与如何前往艺术山",
     "subtitle": "Mont des Arts，1000 Brussels，比利时 · 请从实际出发点规划路线",
     "openMaps": "在 Google 地图中打开"
