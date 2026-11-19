@@ -6,7 +6,7 @@ import Footer from '@/components/Footer';
 import { routing, absoluteUrl, languageAlternates } from '@/i18n/routing';
 import { nearbyCopy, GUIDE_SLUGS, GUIDE_SOURCES, type GuideSlug } from '@/content/nearby';
 import { buildBreadcrumb } from '@/lib/site';
-import { PLACE_DETAILS, GUIDE_LABELS } from '@/content/guide-details';
+import { PLACE_DETAILS, GUIDE_LABELS, VISIT_FACTS } from '@/content/guide-details';
 
 export function generateStaticParams() {
   return routing.locales.flatMap(locale => GUIDE_SLUGS.map(guide => ({ locale, guide })));
@@ -34,6 +34,7 @@ export default async function GuidePage({ params }: { params: Params }) {
   setRequestLocale(locale);
   const sources = GUIDE_SOURCES[slug];
   const place = PLACE_DETAILS[slug];
+  const facts = VISIT_FACTS[slug];
   const labels = GUIDE_LABELS[locale as keyof typeof GUIDE_LABELS];
   const placeMap = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.mapQuery)}`;
   const jsonLd = { '@context': 'https://schema.org', '@graph': [
@@ -64,8 +65,13 @@ export default async function GuidePage({ params }: { params: Params }) {
           <h2 className="font-display text-2xl font-semibold mb-4">{labels.basic}</h2>
           <dl className="rounded-xl p-5" style={{ border: '1px solid var(--border-color)' }}>
             <dt className="font-semibold mb-2">{labels.address}</dt>
-            <dd style={{ color: 'var(--text-secondary)' }}>{place.address}</dd>
+            <dd className="mb-5" style={{ color: 'var(--text-secondary)' }}>{place.address}</dd>
+            <dt className="font-semibold mb-2">{labels.hours}</dt>
+            <dd className="mb-5" style={{ color: 'var(--text-secondary)' }}>{facts.hours[locale]}</dd>
+            <dt className="font-semibold mb-2">{labels.admission}</dt>
+            <dd style={{ color: 'var(--text-secondary)' }}>{facts.admission[locale]}</dd>
           </dl>
+          <a href={facts.url} className="inline-block mt-3 text-sm underline" style={{ color: 'var(--accent)' }} target="_blank" rel="noopener noreferrer">{copy.sources} ↗</a>
         </section>
         <div className="space-y-10">{article.sections.map((section, index) => <section key={index}>
           <h2 className="font-display text-2xl font-semibold mb-3">{section.title}</h2>
