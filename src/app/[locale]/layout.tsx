@@ -50,7 +50,7 @@ export async function generateMetadata({
           url: '/gallery/mont-des-arts-brussels-panorama.jpg',
           width: 1200,
           height: 800,
-          alt: 'Formal garden beds and clipped hedges beside a central path, with city buildings in the distance.',
+          alt: messages.hero.imageAlt,
         },
       ],
     },
