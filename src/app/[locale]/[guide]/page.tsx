@@ -39,6 +39,7 @@ export default async function GuidePage({ params }: { params: Params }) {
   const extraLabels = EXTENDED_LABELS[locale] ?? EXTENDED_LABELS.en;
   const extra = EXTENDED_GUIDES[slug][locale] ?? EXTENDED_GUIDES[slug].en;
   const routeStops = place.route[locale].split(/\s*[→]\s*/).filter(Boolean);
+  const outdoor = slug === 'mont-des-arts-garden' || slug === 'mont-des-arts-viewpoint';
   const placeMap = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.mapQuery)}`;
   const jsonLd = { '@context': 'https://schema.org', '@graph': [
     { '@type': 'Article', headline: article.title, description: article.description, inLanguage: locale, url,
@@ -62,7 +63,10 @@ export default async function GuidePage({ params }: { params: Params }) {
           <p className="text-sm mb-2">{place.address}</p>
           <p className="text-sm mb-2" style={{ color: 'var(--text-secondary)' }}>{facts.hours[locale]}</p>
           <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>{facts.admission[locale]}</p>
-          <a className="inline-block underline" style={{ color: 'var(--accent)' }} target="_blank" rel="noopener noreferrer" href={placeMap}>{labels.maps} ↗</a>
+          <div className="flex flex-wrap gap-x-6 gap-y-2">
+            <a className="inline-block underline" style={{ color: 'var(--accent)' }} target="_blank" rel="noopener noreferrer" href={placeMap}>{labels.maps} ↗</a>
+            <a className="inline-block underline" style={{ color: 'var(--accent)' }} href="#visitor-reviews">{extraLabels.reviews}</a>
+          </div>
         </div>
         <p className="text-lg leading-relaxed mb-10" style={{ color: 'var(--text-secondary)' }}>{article.intro}</p>
         <section className="rounded-xl p-6 sm:p-8 mb-12" style={{ background: 'var(--bg-secondary)' }}>
@@ -107,7 +111,8 @@ export default async function GuidePage({ params }: { params: Params }) {
         </section>
         <section className="mt-12">
           <h2 className="font-display text-2xl font-semibold mb-4">{labels.directions}</h2>
-          <p className="leading-relaxed mb-4" style={{ color: 'var(--text-secondary)' }}>{place.route[locale]}</p>
+          <p className="leading-relaxed mb-4" style={{ color: 'var(--text-secondary)' }}>{extra.transport}</p>
+          <p className="mb-4" style={{ color: 'var(--text-secondary)' }}>{place.address}</p>
           <a href={placeMap} target="_blank" rel="noopener noreferrer" className="underline" style={{ color: 'var(--accent)' }}>{labels.maps} ↗</a>
         </section>
         <section className="mt-12">
@@ -116,13 +121,15 @@ export default async function GuidePage({ params }: { params: Params }) {
         </section>
         <section className="mt-12"><h2 className="font-display text-2xl font-semibold mb-4">{extraLabels.practical}</h2><p style={{ color: 'var(--text-secondary)' }}>{extra.practical}</p></section>
         <section className="mt-12"><h2 className="font-display text-2xl font-semibold mb-4">{extraLabels.stay}</h2><p style={{ color: 'var(--text-secondary)' }}>{extraLabels.stayNote}</p></section>
-        <section className="mt-12"><h2 className="font-display text-2xl font-semibold mb-4">{extraLabels.reviews}</h2><p className="mb-3" style={{ color: 'var(--text-secondary)' }}>{extraLabels.reviewNote}</p><a href={placeMap} className="underline" style={{ color: 'var(--accent)' }} target="_blank" rel="noopener noreferrer">{labels.maps} ↗</a></section>
+        <section id="visitor-reviews" className="mt-12"><h2 className="font-display text-2xl font-semibold mb-4">{extraLabels.reviews}</h2><p className="mb-3" style={{ color: 'var(--text-secondary)' }}>{extraLabels.reviewNote}</p><a href={placeMap} className="underline" style={{ color: 'var(--accent)' }} target="_blank" rel="noopener noreferrer">{labels.maps} ↗</a></section>
         <section className="mt-12">
           <h2 className="font-display text-2xl font-semibold mb-4">{labels.faq}</h2>
           <h3 className="font-semibold mt-5 mb-2">{labels.q1}</h3>
           <p style={{ color: 'var(--text-secondary)' }}>{place.address}</p>
-          <h3 className="font-semibold mt-5 mb-2">{labels.q2}</h3>
-          <p style={{ color: 'var(--text-secondary)' }}>{labels.a2}</p>
+          <h3 className="font-semibold mt-5 mb-2">{outdoor ? extraLabels.outdoorQ : labels.q2}</h3>
+          <p style={{ color: 'var(--text-secondary)' }}>{outdoor ? extraLabels.outdoorA : labels.a2}</p>
+          <h3 className="font-semibold mt-5 mb-2">{extraLabels.photoQ}</h3>
+          <p style={{ color: 'var(--text-secondary)' }}>{place.photoTip[locale]}</p>
         </section>
         <aside className="rounded-xl p-5 mt-10 text-sm" style={{ background: 'var(--bg-secondary)' }}>{copy.notice}</aside>
         <section className="mt-12"><h2 className="font-display text-xl font-semibold mb-4">{copy.sources}</h2>
